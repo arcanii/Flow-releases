@@ -78,4 +78,5 @@ keeps it in Windows Credential Manager.
   update in it carries an EdDSA signature, and Flow refuses updates that don't
   verify.
 
-Flow's source code isn't public.
+Flow's source code isn't public yet, but I do plan to make it OpenSource when more mature.
+This is also testing a release repo.
