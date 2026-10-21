@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Flow (macOS) Updates</title>
+    <link>https://raw.githubusercontent.com/arcanii/Flow-releases/main/appcast-macos.xml</link>
+    <description>Most recent updates to Flow for macOS</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.1.2</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.2-macos</sparkle:releaseNotesLink>
+      <pubDate>Wed, 21 Oct 2026 15:31:47 +0000</pubDate>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.2-macos/Flow-0.1.2-macos.dmg"
+                 sparkle:version="25"
+                 sparkle:shortVersionString="0.1.2"
+                 sparkle:edSignature="eAZTD5K/OiKQLMmfsE4OGGw0LTmdCvHDK3Lcv29DFfT4xnhz7fIOk0bIIFIUp+3CiTmyL7JxAzwcoMDQ9PPABQ=="
+                 length="9257630"
+                 type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
