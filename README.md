@@ -13,6 +13,10 @@ Type commands as usual, or describe what you want in plain English. The
 assistant suggests the steps or runs them in your shell, and asks first before
 anything risky.
 
+cmd, PowerShell and bash each get a tab. If you don't have Git Bash, MSYS2 or
+WSL, Flow brings its own bash: BusyBox, a small POSIX shell with the usual Unix
+tools.
+
 ![Flow with the assistant panel open](images/main.png)
 
 ## Liquid glass
@@ -73,7 +77,8 @@ keeps it in Windows Credential Manager.
 ## What this repo holds
 
 - The [releases](https://github.com/arcanii/Flow-releases/releases) with the
-  installers.
+  installers. Since 0.1.1, each release also carries the source of the BusyBox
+  it bundles, which is free software under the GPL, version 2.
 - `appcast.xml`, the update feed that installed copies of Flow read. Every
   update in it carries an EdDSA signature, and Flow refuses updates that don't
   verify.
