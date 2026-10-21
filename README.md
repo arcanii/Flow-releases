@@ -20,12 +20,24 @@ anything risky.
 The glass is a live fluid simulation, and your cursor and typing stir it up.
 Pick a style in Settings, and slow it down if you like:
 
-| | |
-| --- | --- |
-| ![Clouds with lightning](images/clouds.webp) | ![Water seen from above](images/water-above.webp) |
-| **Clouds**, with optional lightning | **Water from above**: ripples, sunlight and caustics |
-| ![Water seen from below](images/water-below.webp) | ![Oil](images/oil.webp) |
-| **Water from below**: light shafts and bubbles | **Oil**: a glossy, thin-film sheen |
+<table>
+  <tr>
+    <td><img src="images/clouds.webp" alt="Clouds with lightning"></td>
+    <td><img src="images/water-above.webp" alt="Water seen from above"></td>
+  </tr>
+  <tr>
+    <td><b>Clouds</b>, with optional lightning</td>
+    <td><b>Water from above</b>: ripples, sunlight and caustics</td>
+  </tr>
+  <tr>
+    <td><img src="images/water-below.webp" alt="Water seen from below"></td>
+    <td><img src="images/oil.webp" alt="Oil"></td>
+  </tr>
+  <tr>
+    <td><b>Water from below</b>: light shafts and bubbles</td>
+    <td><b>Oil</b>: a glossy, thin-film sheen</td>
+  </tr>
+</table>
 
 ## Download
 
@@ -47,10 +59,16 @@ keeps it in Windows Credential Manager.
 
 ## More screenshots
 
-| | |
-| --- | --- |
-| ![The settings menu](images/settings.png) | ![The About dialog](images/about.png) |
-| Settings: the look, the assistant, a token cap | About, with a check for updates |
+<table>
+  <tr>
+    <td><img src="images/settings.png" alt="The settings menu"></td>
+    <td><img src="images/about.png" alt="The About dialog"></td>
+  </tr>
+  <tr>
+    <td>Settings: the look, the assistant, a token cap</td>
+    <td>About, with a check for updates</td>
+  </tr>
+</table>
 
 ## What this repo holds
 
