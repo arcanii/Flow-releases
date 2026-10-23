@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows and macOS with a liquid-glass look and Claude built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.5-macos"><b>Download for macOS</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.6-macos"><b>Download for macOS</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -63,7 +63,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.5-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.6-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
