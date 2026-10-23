@@ -5,14 +5,15 @@
 <h1 align="center">Flow</h1>
 
 <p align="center">
-  A terminal for Windows and macOS with a liquid-glass look and Claude built in.<br>
+  A terminal for Windows and macOS with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.6-macos"><b>Download for macOS</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
 assistant suggests the steps or runs them in your shell, and asks first before
-anything risky.
+anything risky. It's Anthropic's Claude, or on the Mac, if you prefer, OpenAI's
+GPT or Google's Gemini.
 
 On Windows, cmd, PowerShell and bash each get a tab. If you don't have Git
 Bash, MSYS2 or WSL, Flow brings its own bash: BusyBox, a small POSIX shell with
@@ -43,7 +44,18 @@ Pick a style in Settings, and slow it down if you like:
     <td><b>Water from below</b>: light shafts and bubbles</td>
     <td><b>Oil</b>: a glossy, thin-film sheen</td>
   </tr>
+  <tr>
+    <td><img src="images/rain.webp" alt="Rain on the window"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Rain</b> on a fogged window: drops run down and grow, and your cursor wipes the glass</td>
+    <td></td>
+  </tr>
 </table>
+
+In Settings you can also pick the terminal's font from the monospaced fonts on
+your computer.
 
 ## Download
 
@@ -72,10 +84,20 @@ macOS 11 or later.
   **Flow → Check for Updates…** checks on demand.
 - `SHA256SUMS-macos.txt` in each macOS release lists the checksum.
 
-The assistant needs an Anthropic API key. Flow asks for it on first start and
-keeps it in Windows Credential Manager or the macOS Keychain.
+## The assistant
 
-![The first-run dialog that asks for an Anthropic API key](images/key.png)
+The assistant needs an API key from its provider, which Flow keeps in Windows
+Credential Manager or the macOS Keychain.
+
+- **On the Mac** (0.1.6 and later), Flow works as a terminal without a key and
+  never asks for one on its own. Open Settings (⌘,), pick the **Provider**
+  under Assistant (Claude, GPT or Gemini), and add that provider's key under
+  **API key**. Each provider keeps its own key. GPT and Gemini are new, so
+  expect some rough edges.
+- **On Windows**, the assistant uses Claude, and Flow asks for an Anthropic key
+  on first start.
+
+![Adding an API key](images/key.png)
 
 ## More screenshots
 
@@ -85,7 +107,7 @@ keeps it in Windows Credential Manager or the macOS Keychain.
     <td><img src="images/about.png" alt="The About dialog"></td>
   </tr>
   <tr>
-    <td>Settings: the look, the assistant, a token cap</td>
+    <td>Settings: the look, the font, the assistant and its provider, a token cap</td>
     <td>About, with a check for updates</td>
   </tr>
 </table>
