@@ -67,7 +67,10 @@ Pick a style in Settings, and slow it down if you like:
 </table>
 
 In Settings you can also pick the terminal's font from the monospaced fonts on
-your computer.
+your computer. On the Mac, since 0.1.8, **Text color** and **Cursor color**
+offer a row of swatches (any other color works as `#RRGGBB` in the config
+file), and **Glow** turns the glow around the cursor, tabs and buttons down to
+nothing or up to 200%.
 
 ## The glass reacts
 
