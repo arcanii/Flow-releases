@@ -15,12 +15,24 @@ assistant suggests the steps or runs them in your shell, and asks first before
 anything risky. It's Anthropic's Claude, OpenAI's GPT or Google's Gemini,
 whichever you prefer.
 
-On Windows, cmd, PowerShell and bash each get a tab. If you don't have Git
-Bash, MSYS2 or WSL, Flow brings its own bash: BusyBox, a small POSIX shell with
-the usual Unix tools. On the Mac, zsh and bash do, with a menu bar, a
-right-click menu and the keys you're used to from Terminal.
+Flow runs the shells you already have. On Windows that's cmd, PowerShell and
+bash; if you don't have Git Bash, MSYS2 or WSL, Flow brings its own bash:
+BusyBox, a small POSIX shell with the usual Unix tools. On the Mac it's zsh and
+bash, with a menu bar, a right-click menu and the keys you're used to from
+Terminal.
 
 ![Flow with the assistant panel open](images/main.png)
+
+## Tabs
+
+One window holds as many terminals as you like, each in a tab running the shell
+you pick. **⌘T** opens a tab with your default shell, in the folder of the tab
+in front, and the **+** after the tabs opens one with any other shell. **⌘W**
+closes a tab, **⌘1** to **⌘9** jump to one, and **⇧⌘]** and **⇧⌘[** step
+through them. The assistant works in the tab in front.
+
+Tabs are new in Flow 0.1.7 for macOS. Until Windows has them too, Flow for
+Windows gives cmd, PowerShell and bash a tab each.
 
 ## Liquid glass
 
@@ -46,16 +58,33 @@ Pick a style in Settings, and slow it down if you like:
   </tr>
   <tr>
     <td><img src="images/rain.webp" alt="Rain on the window"></td>
-    <td></td>
+    <td><img src="images/none.webp" alt="Plain glass"></td>
   </tr>
   <tr>
     <td><b>Rain</b> on a fogged window: drops run down and grow, and your cursor wipes the glass</td>
-    <td></td>
+    <td><b>None</b>: plain tinted glass with nothing moving behind it (on the Mac, for now)</td>
   </tr>
 </table>
 
 In Settings you can also pick the terminal's font from the monospaced fonts on
 your computer.
+
+## The glass reacts
+
+Whatever the style, the glass also shows what your terminal is up to:
+
+- **Commands:** when one finishes, a ring spreads from the prompt (red if it
+  failed, wider after a long run), and the liquid splashes in its own way, with
+  bursts of cloud, ripples, bubbles or running drops.
+- **Progress:** programs that report how far along they are, such as Cargo,
+  fill the glass from the bottom like a tank.
+- **The assistant:** while it thinks, the liquid leans toward its panel. Each
+  step it takes splashes, and a finished task blooms.
+- **Tabs:** when a long command finishes in a tab you aren't looking at, that
+  tab glows green, or red if the command failed.
+
+Prefer a calm window? Turn off **Reactions** in Settings. The reactions are new
+in Flow 0.1.7 for macOS, and Windows doesn't have them yet.
 
 ## Download
 
