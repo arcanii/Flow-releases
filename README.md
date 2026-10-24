@@ -26,13 +26,14 @@ Terminal.
 ## Tabs
 
 One window holds as many terminals as you like, each in a tab running the shell
-you pick. **⌘T** opens a tab with your default shell, in the folder of the tab
-in front, and the **+** after the tabs opens one with any other shell. **⌘W**
-closes a tab, **⌘1** to **⌘9** jump to one, and **⇧⌘]** and **⇧⌘[** step
-through them. The assistant works in the tab in front.
+you pick. **⌘T** (**Ctrl+Shift+T** on Windows) opens a tab with your default
+shell, in the folder of the tab in front, and the **+** after the tabs opens one
+with any other shell. **⌘W** (**Ctrl+Shift+W**) closes a tab, **⌘1** to **⌘9**
+(**Ctrl+Shift+1** to **9**) jump to one, and **⇧⌘]** and **⇧⌘[** (**Ctrl+Tab**
+and **Ctrl+Shift+Tab**) step through them. The assistant works in the tab in
+front.
 
-Tabs are new in Flow 0.1.7 for macOS. Until Windows has them too, Flow for
-Windows gives cmd, PowerShell and bash a tab each.
+Tabs came to the Mac in Flow 0.1.7 and to Windows in 0.1.8.
 
 ## Liquid glass
 
@@ -62,12 +63,12 @@ Pick a style in Settings, and slow it down if you like:
   </tr>
   <tr>
     <td><b>Rain</b> on a fogged window: drops run down and grow, and your cursor wipes the glass</td>
-    <td><b>None</b>: plain tinted glass with nothing moving behind it (on the Mac, for now)</td>
+    <td><b>None</b>: plain tinted glass with nothing moving behind it</td>
   </tr>
 </table>
 
 In Settings you can also pick the terminal's font from the monospaced fonts on
-your computer. On the Mac, since 0.1.8, **Text color** and **Cursor color**
+your computer. Since 0.1.8, **Text color** and **Cursor color**
 offer a row of swatches (any other color works as `#RRGGBB` in the config
 file), and **Glow** turns the glow around the cursor, tabs and buttons down to
 nothing or up to 200%.
@@ -86,8 +87,8 @@ Whatever the style, the glass also shows what your terminal is up to:
 - **Tabs:** when a long command finishes in a tab you aren't looking at, that
   tab glows green, or red if the command failed.
 
-Prefer a calm window? Turn off **Reactions** in Settings. The reactions are new
-in Flow 0.1.7 for macOS, and Windows doesn't have them yet.
+Prefer a calm window? Turn off **Reactions** in Settings. The reactions came to
+the Mac in Flow 0.1.7 and to Windows in 0.1.8.
 
 ## Download
 
