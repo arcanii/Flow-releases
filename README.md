@@ -97,16 +97,30 @@ the Mac in Flow 0.1.7 and to Windows in 0.1.8.
 
 ## CRT
 
-![Flow with the CRT setting over the None style, in green](images/crt.webp)
+![Flow with the Arcade CRT preset over the None style, in green](images/crt.webp)
 
-**CRT** in Settings shows everything, over any liquid style, as an old tube
-monitor would: every other line at half brightness, the lines swapping each
-frame (interlaced), and the phosphor's glow around bright text and its
-afterglow where text changes or scrolls. It looks best with the **None** style
-and Green or Amber text. While Flow is in front it draws every frame to
-interlace, which uses more power.
+The **CRT** section of Settings shows everything, over any liquid style, as an
+old tube monitor would. **Preset** picks a ready-made look (Subtle, Classic,
+Arcade, Phosphor or Television), **Strength** sets how strongly it shows, and
+each part has a row of its own:
 
-The CRT is new in Flow 0.1.10 for macOS. Windows doesn't have it yet.
+- **Scanlines:** how dark every other line is
+- **Interlace:** the lit and dim lines swap each frame
+- **Phosphor glow:** the light bright text spreads over the lines
+- **Phosphor decay:** how long the afterglow lingers when text changes or
+  scrolls, up to 300 ms
+- **Grille:** the fine stripes of red, green and blue phosphor
+- **Vignette:** darker toward the corners
+- **Curvature:** the picture bulges like a tube's glass, inside a black bezel.
+  Clicks, selections and the pointer follow the curve.
+
+**Your presets → Save as…** keeps the look under a name you choose, to pick
+again from **Preset**. The CRT looks best with the **None** style and Green or
+Amber text. With Interlace or Phosphor decay on, Flow draws every frame while
+it's in front, which uses more power.
+
+The CRT is on the Mac only for now: it came in Flow 0.1.10, and its parts,
+curvature and presets in 0.1.11. Windows doesn't have it yet.
 
 ## Languages
 
