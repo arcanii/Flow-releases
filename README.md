@@ -73,10 +73,10 @@ offer a row of swatches (any other color works as `#RRGGBB` in the config
 file), and **Glow** turns the glow around the cursor, tabs and buttons down to
 nothing or up to 200%.
 
-On the Mac, since 0.1.9, each color also shows as its `#RRGGBB` value, which
-opens a color picker: drag for saturation and brightness, pick the hue on a
-bar, or type or paste a hex value. A third color, **Background**, tints the
-glass behind the terminal under any liquid style.
+Since 0.1.9, each color also shows as its `#RRGGBB` value, which opens a color
+picker: drag for saturation and brightness, pick the hue on a bar, or type or
+paste a hex value. A third color, **Background**, tints the glass behind the
+terminal under any liquid style.
 
 ## The glass reacts
 
@@ -94,6 +94,32 @@ Whatever the style, the glass also shows what your terminal is up to:
 
 Prefer a calm window? Turn off **Reactions** in Settings. The reactions came to
 the Mac in Flow 0.1.7 and to Windows in 0.1.8.
+
+## CRT
+
+![Flow with the CRT setting over the None style, in green](images/crt.webp)
+
+**CRT** in Settings shows everything, over any liquid style, as an old tube
+monitor would: every other line at half brightness, the lines swapping each
+frame (interlaced), and the phosphor's glow around bright text and its
+afterglow where text changes or scrolls. It looks best with the **None** style
+and Green or Amber text. While Flow is in front it draws every frame to
+interlace, which uses more power.
+
+The CRT is new in Flow 0.1.10 for macOS. Windows doesn't have it yet.
+
+## Languages
+
+Flow speaks English and Japanese: its menus, Settings, the assistant panel,
+dialogs and messages. Pick one under **Settings → General → Language**, or
+leave it on **Automatic** to follow your Mac's language. The assistant is told
+the language too, so it answers, and explains the commands it suggests, in it.
+On a Mac set to Japanese, the update windows and the permission prompts for
+programs run in Flow are in Japanese as well.
+
+Flowは日本語に対応しています。設定の「一般」→「言語」で選ぶか、「自動」のままにするとMacの言語に従います。
+
+Japanese is new in Flow 0.1.10 for macOS. Windows doesn't have it yet.
 
 ## Download
 
