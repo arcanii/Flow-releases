@@ -123,8 +123,8 @@ Since Flow 0.1.12 for macOS, the CRT needs about half the memory it did: full
 screen on a 3456 × 2234 display, about 97 MB instead of 185 MB. With
 **Phosphor decay** at 0 it keeps no afterglow at all and needs about 35 MB.
 
-The CRT is on the Mac only for now: it came in Flow 0.1.10, and its parts,
-curvature and presets in 0.1.11. Windows doesn't have it yet.
+The CRT came to the Mac in Flow 0.1.10, with its parts, curvature and presets
+in 0.1.11. It came to Windows, all of it at once, in 0.1.11.
 
 ## Languages
 
@@ -137,7 +137,9 @@ programs run in Flow are in Japanese as well.
 
 Flowは日本語に対応しています。設定の「一般」→「言語」で選ぶか、「自動」のままにするとMacの言語に従います。
 
-Japanese is new in Flow 0.1.10 for macOS. Windows doesn't have it yet.
+Japanese came to the Mac in Flow 0.1.10 and to Windows in 0.1.11. On Windows,
+**Automatic** doesn't follow the Windows display language yet, so pick
+**日本語** there.
 
 ## Screen refresh
 
