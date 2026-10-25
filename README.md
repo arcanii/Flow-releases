@@ -73,6 +73,11 @@ offer a row of swatches (any other color works as `#RRGGBB` in the config
 file), and **Glow** turns the glow around the cursor, tabs and buttons down to
 nothing or up to 200%.
 
+On the Mac, since 0.1.9, each color also shows as its `#RRGGBB` value, which
+opens a color picker: drag for saturation and brightness, pick the hue on a
+bar, or type or paste a hex value. A third color, **Background**, tints the
+glass behind the terminal under any liquid style.
+
 ## The glass reacts
 
 Whatever the style, the glass also shows what your terminal is up to:
