@@ -119,6 +119,10 @@ again from **Preset**. The CRT looks best with the **None** style and Green or
 Amber text. With Interlace or Phosphor decay on, Flow draws every frame while
 it's in front, which uses more power.
 
+Since Flow 0.1.12 for macOS, the CRT needs about half the memory it did: full
+screen on a 3456 × 2234 display, about 97 MB instead of 185 MB. With
+**Phosphor decay** at 0 it keeps no afterglow at all and needs about 35 MB.
+
 The CRT is on the Mac only for now: it came in Flow 0.1.10, and its parts,
 curvature and presets in 0.1.11. Windows doesn't have it yet.
 
@@ -134,6 +138,19 @@ programs run in Flow are in Japanese as well.
 Flowは日本語に対応しています。設定の「一般」→「言語」で選ぶか、「自動」のままにするとMacの言語に従います。
 
 Japanese is new in Flow 0.1.10 for macOS. Windows doesn't have it yet.
+
+## Screen refresh
+
+**Settings → General → Screen refresh** sets how often Flow draws while
+something moves or output comes in. **Display**, the default, keeps to your
+screen's own rate: 60 Hz on most screens, 120 Hz on a ProMotion Mac. **30** to
+**240 Hz** cap it, and a lower rate saves power. **Unlimited** doesn't wait for
+the screen: each frame shows as soon as it's drawn, so text appears a little
+sooner, but while anything moves Flow draws as often as it can, which uses the
+most power. Behind other windows, Flow draws at most 20 frames a second
+whatever it's set to.
+
+Screen refresh is on the Mac only for now, since Flow 0.1.12.
 
 ## Download
 
