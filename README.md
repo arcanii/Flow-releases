@@ -21,6 +21,11 @@ BusyBox, a small POSIX shell with the usual Unix tools. On the Mac it's zsh and
 bash, with a menu bar, a right-click menu and the keys you're used to from
 Terminal.
 
+Programs can show pictures in it, too. Flow speaks the [kitty graphics
+protocol](#images), so image tools such as `viu` and `timg` draw right in the
+terminal, and the pictures ride the liquid and glow under the CRT like the text
+around them.
+
 ![Flow with the assistant panel open](images/main.png)
 
 ## Tabs
@@ -34,6 +39,34 @@ and **Ctrl+Shift+Tab**) step through them. The assistant works in the tab in
 front.
 
 Tabs came to the Mac in Flow 0.1.7 and to Windows in 0.1.8.
+
+## Images
+
+<table>
+  <tr>
+    <td><img src="images/images-clouds.png" alt="A screenshot shown with timg in Flow, over the Clouds style"></td>
+    <td><img src="images/images-crt.png" alt="The same picture under the CRT"></td>
+  </tr>
+  <tr>
+    <td>A picture from <code>timg</code>, over the <b>Clouds</b> style</td>
+    <td>The same picture under the <b>CRT</b>: scanlines, curve and glow</td>
+  </tr>
+</table>
+
+Programs can show pictures in the terminal through the [kitty graphics
+protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/), the one most
+image tools speak today. `viu` finds it by itself; `timg` needs `-pk` for now,
+since it doesn't know Flow by name yet. Other tools that speak it, such as
+`kitten icat`, yazi, ranger and Neovim's image plugins, should work too.
+
+A picture sits in the terminal like text: it scrolls with it, goes into the
+scrollback and clears with `clear`. It rides the liquid as text does, and under
+the CRT it gets the scanlines, the curve and the phosphor's glow. Copying text
+leaves pictures out.
+
+Images came to the Mac in Flow 0.1.17. Windows doesn't have them yet: the
+console layer Windows puts between Flow and the shell (ConPTY) drops the
+protocol's escapes.
 
 ## Liquid glass
 
