@@ -130,29 +130,28 @@ in 0.1.11. It came to Windows, all of it at once, in 0.1.11.
 
 Flow speaks English and Japanese: its menus, Settings, the assistant panel,
 dialogs and messages. Pick one under **Settings → General → Language**, or
-leave it on **Automatic** to follow your Mac's language. The assistant is told
-the language too, so it answers, and explains the commands it suggests, in it.
-On a Mac set to Japanese, the update windows and the permission prompts for
-programs run in Flow are in Japanese as well.
+leave it on **Automatic** to follow your Mac's or Windows' language. The
+assistant is told the language too, so it answers, and explains the commands
+it suggests, in it. On a Mac set to Japanese, the update windows and the
+permission prompts for programs run in Flow are in Japanese as well.
 
-Flowは日本語に対応しています。設定の「一般」→「言語」で選ぶか、「自動」のままにするとMacの言語に従います。
+Flowは日本語に対応しています。設定の「一般」→「言語」で選ぶか、「自動」のままにするとMacやWindowsの言語に従います。
 
-Japanese came to the Mac in Flow 0.1.10 and to Windows in 0.1.11. On Windows,
-**Automatic** doesn't follow the Windows display language yet, so pick
-**日本語** there.
+Japanese came to the Mac in Flow 0.1.10 and to Windows in 0.1.11. Since
+0.1.12, **Automatic** follows the Windows display language too.
 
-Since Flow 0.1.14 on the Mac, you can also type Japanese (or Chinese or
-Korean) through the macOS input method: at the prompt, in the assistant's
-input and in a CRT preset's name. What you're composing shows underlined where
-it will go, more heavily under the part being converted, with the candidates
-beside it. Only what you commit reaches the shell, so the Enter that confirms
-a conversion doesn't run the line. Settings and the API key dialog take keys
-as they are, so the input method is off there. A held letter still repeats
-instead of opening the accent picker. If **⌃Space** switches input sources on
-your Mac, macOS takes it before Flow sees it, so open the assistant with
-**Ask** in the title bar. Windows doesn't have this yet.
+Since Flow 0.1.14 on the Mac and 0.1.15 on Windows, you can also type
+Japanese (or Chinese or Korean) through the system's input method: at the
+prompt, in the assistant's input and in a CRT preset's name. What you're
+composing shows underlined where it will go, more heavily under the part being
+converted, with the candidates beside it. Only what you commit reaches the
+shell, so the Enter that confirms a conversion doesn't run the line. Settings
+and the API key dialog take keys as they are, so the input method is off
+there. On the Mac, a held letter still repeats instead of opening the accent
+picker, and if **⌃Space** switches input sources, macOS takes it before Flow
+sees it, so open the assistant with **Ask** in the title bar.
 
-Flow 0.1.14からは、Macの日本語入力でプロンプトやアシスタントの入力欄に日本語を入力できます（Windowsはまだです）。
+Flow 0.1.14（Mac）と0.1.15（Windows）からは、日本語入力でプロンプトやアシスタントの入力欄に日本語を入力できます。
 
 ## Screen refresh
 
