@@ -119,8 +119,8 @@ again from **Preset**. The CRT looks best with the **None** style and Green or
 Amber text. With Interlace or Phosphor decay on, Flow draws every frame while
 it's in front, which uses more power.
 
-Since Flow 0.1.12 for macOS, the CRT needs about half the memory it did: full
-screen on a 3456 × 2234 display, about 97 MB instead of 185 MB. With
+Since Flow 0.1.12, on the Mac and Windows, the CRT needs about half the memory
+it did: full screen on a 3456 × 2234 display, about 97 MB instead of 185 MB. With
 **Phosphor decay** at 0 it keeps no afterglow at all and needs about 35 MB.
 
 The CRT came to the Mac in Flow 0.1.10, with its parts, curvature and presets
@@ -152,7 +152,7 @@ sooner, but while anything moves Flow draws as often as it can, which uses the
 most power. Behind other windows, Flow draws at most 20 frames a second
 whatever it's set to.
 
-Screen refresh is on the Mac only for now, since Flow 0.1.12.
+Screen refresh came to the Mac and Windows in Flow 0.1.12.
 
 ## Download
 
