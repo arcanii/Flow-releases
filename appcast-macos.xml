@@ -6,15 +6,15 @@
     <description>Most recent updates to Flow for macOS</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.13</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.13-macos</sparkle:releaseNotesLink>
-      <pubDate>Tue, 27 Oct 2026 03:44:01 +0000</pubDate>
+      <title>Version 0.1.14</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.14-macos</sparkle:releaseNotesLink>
+      <pubDate>Tue, 27 Oct 2026 08:52:52 +0000</pubDate>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.13-macos/Flow-0.1.13-macos.dmg"
-                 sparkle:version="62"
-                 sparkle:shortVersionString="0.1.13"
-                 sparkle:edSignature="RHL55HlMXwwYbDoYPf3ZzOLKCo9g7RDTSXPatylbRukjyYe2bKP2asd5hFfGLHVU7qy2e7SsVG4coWOTYi/wCw=="
-                 length="9495122"
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.14-macos/Flow-0.1.14-macos.dmg"
+                 sparkle:version="65"
+                 sparkle:shortVersionString="0.1.14"
+                 sparkle:edSignature="iIT4t4SchhKxX2kNUTOUBvhYLSgz7h9jiz53JT1TourLnrez2fE2d5Ly+QEhcumDKVx91QY9fVd8d6txLfBWAQ=="
+                 length="9531900"
                  type="application/octet-stream"/>
     </item>
   </channel>
