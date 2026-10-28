@@ -92,7 +92,9 @@ The sprites are pictures like those above, so the game takes on the liquid
 style, glow and CRT you've chosen. `?` lists the keys, and `Q` saves the
 adventure for next time.
 
-Flow Rogue came to the Mac in Flow 0.1.18. Windows doesn't have it yet.
+Flow Rogue came to the Mac in Flow 0.1.18 and to Windows in 0.1.20. On
+Windows it's drawn in letters, as Rogue was: the console layer Windows puts
+between Flow and the shell (ConPTY) drops the pictures the sprites are made of.
 
 ## Liquid glass
 
