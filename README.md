@@ -68,6 +68,32 @@ Images came to the Mac in Flow 0.1.17. Windows doesn't have them yet: the
 console layer Windows puts between Flow and the shell (ConPTY) drops the
 protocol's escapes.
 
+## Flow Rogue
+
+<table>
+  <tr>
+    <td><img src="images/rogue-town.png" alt="Flow Rogue's town: three shops, a well, and roads west to the dungeon and east to the castle"></td>
+    <td><img src="images/rogue-castle.png" alt="A warrior facing a skeleton, a ghost, a vampire and a zombie in the castle, over the Clouds style"></td>
+  </tr>
+  <tr>
+    <td>The town: three shops, the well, and the roads west to the dungeon and east to the castle</td>
+    <td>In the castle, over the <b>Clouds</b> style. The ghost is see-through.</td>
+  </tr>
+</table>
+
+Flow comes with a game. Type `flow-rogue` in a Flow tab: a roguelike in the
+spirit of Rogue, drawn in animated sprites. Make a warrior, mage or rogue,
+outfit them at the town's shops, and go down the dungeon after the red dragon's
+gem or up the castle after the Lich King's crown. Each has five floors, new on
+every visit. Come back to town to heal at the well and buy better gear, and
+bring both treasures home to win.
+
+The sprites are pictures like those above, so the game takes on the liquid
+style, glow and CRT you've chosen. `?` lists the keys, and `Q` saves the
+adventure for next time.
+
+Flow Rogue came to the Mac in Flow 0.1.18. Windows doesn't have it yet.
+
 ## Liquid glass
 
 The glass is a live fluid simulation, and your cursor and typing stir it up.
