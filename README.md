@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows and macOS with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.19-macos"><b>Download for macOS</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.20-macos"><b>Download for macOS</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -82,19 +82,25 @@ protocol's escapes.
 </table>
 
 Flow comes with a game. Type `flow-rogue` in a Flow tab: a roguelike in the
-spirit of Rogue, drawn in animated sprites. Make a warrior, mage or rogue,
-outfit them at the town's shops, and go down the dungeon after the red dragon's
-gem or up the castle after the Lich King's crown. Each has five floors, new on
-every visit. Come back to town to heal at the well and buy better gear, and
-bring both treasures home to win.
+spirit of Rogue, drawn in animated sprites. Make one of seven kinds of
+adventurer, outfit them in town and hire a companion at the inn, then set out
+through the front gate across a wilderness of forest, swamp, hills and rivers,
+with villages and ruins, by day and by night. Your quest: the red dragon's gem
+from the dungeon and the Lich King's crown from his castle, five floors each,
+new on every visit. Bring both treasures home to win.
 
 The sprites are pictures like those above, so the game takes on the liquid
-style, glow and CRT you've chosen. `?` lists the keys, and `Q` saves the
-adventure for next time.
+style, glow and CRT you've chosen, and its spells, blows and wind stir the
+liquid. `?` lists the keys, and `Q` saves the adventure for next time. The
+game's rules are data you can change: `flow-rogue --edit-rules --rules <folder>`
+edits the monsters, items, shops and the rest in the terminal, and
+`flow-rogue --rules <folder>` plays by them.
 
 Flow Rogue came to the Mac in Flow 0.1.18 and to Windows in 0.1.20. On
 Windows it's drawn in letters, as Rogue was: the console layer Windows puts
 between Flow and the shell (ConPTY) drops the pictures the sprites are made of.
+The wilderness, the seven kinds of adventurer and the rules editor came to the
+Mac in 0.1.20, and come to Windows with its next release.
 
 ## Liquid glass
 
@@ -152,9 +158,13 @@ Whatever the style, the glass also shows what your terminal is up to:
   step it takes splashes, and a finished task blooms.
 - **Tabs:** when a long command finishes in a tab you aren't looking at, that
   tab glows green, or red if the command failed.
+- **Programs:** a program can set off an effect at a cell of its own:
+  lightning, a splash, a ring or a push of the liquid (OSC 7731). Flow Rogue's
+  spells and blows do.
 
-Prefer a calm window? Turn off **Reactions** in Settings. The reactions came to
-the Mac in Flow 0.1.7 and to Windows in 0.1.8.
+Prefer a calm window? Turn off **Reactions** in Settings, or **Programs'
+effects** for the programs' alone. The reactions came to the Mac in Flow 0.1.7
+and to Windows in 0.1.8, and programs' effects to the Mac in 0.1.20.
 
 ## CRT
 
@@ -245,7 +255,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.19-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.20-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
