@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows and macOS with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.20-macos"><b>Download for macOS</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.21-macos"><b>Download for macOS</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -102,6 +102,19 @@ between Flow and the shell (ConPTY) drops the pictures the sprites are made of.
 The wilderness, the seven kinds of adventurer and the rules editor came to the
 Mac in 0.1.20, and come to Windows with its next release.
 
+## Flow Mines
+
+Flow comes with a second game. Type `flow-mines` in a Flow tab: a mine-finding
+puzzle drawn in text. Open every tile that hides no mine; each one you open
+says how many lie around it, and the first is always safe. The ground you open
+lets the liquid show through, and each move sets it off: a ripple for a tile, a
+splash as ground opens up, a blast and lightning when a mine goes off, and gold
+when the field is cleared. `?` lists the keys. Small, medium and large fields
+each keep your best time.
+
+Flow Mines came to the Mac in Flow 0.1.21, and comes to Windows with its next
+release.
+
 ## Liquid glass
 
 The glass is a live fluid simulation, and your cursor and typing stir it up.
@@ -160,7 +173,7 @@ Whatever the style, the glass also shows what your terminal is up to:
   tab glows green, or red if the command failed.
 - **Programs:** a program can set off an effect at a cell of its own:
   lightning, a splash, a ring or a push of the liquid (OSC 7731). Flow Rogue's
-  spells and blows do.
+  spells and blows do, and so do Flow Mines' openings, blasts and wins.
 
 Prefer a calm window? Turn off **Reactions** in Settings, or **Programs'
 effects** for the programs' alone. The reactions came to the Mac in Flow 0.1.7
@@ -255,7 +268,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.20-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.21-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
