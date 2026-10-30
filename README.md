@@ -115,9 +115,9 @@ when the field is cleared. `?` lists the keys. Small, medium and large fields
 each keep your best time.
 
 Flow Mines came to the Mac and to Windows in Flow 0.1.21. Since 0.1.22 on the
-Mac, Flow hands the mouse to programs that ask for it, so there Flow Mines also
-takes clicks: left opens a tile, right flags one. Hold **Shift** to select text
-over such a program as before.
+Mac and 0.1.25 on Windows, Flow hands the mouse to programs that ask for it, so
+Flow Mines also takes clicks: left opens a tile, right flags one. Hold
+**Shift** to select text over such a program as before.
 
 ## Command history
 
@@ -125,13 +125,13 @@ over such a program as before.
 
 Flow keeps the commands you run in its tabs, whatever the shell, with the
 folder each ran in, how it ended and when, and finds them again by any words in
-them. **⌘R** opens the search: type a few words in any order, pick a command,
-and Enter puts it at the prompt to run or change first. Tab narrows the list to
-this folder, to the commands that failed, or to this shell. The history stays
-on your computer, and lines that start with a space, or look like they set a
-password, a token or a key, are left out.
+them. **⌘R** (**Ctrl+Shift+R** on Windows) opens the search: type a few words
+in any order, pick a command, and Enter puts it at the prompt to run or change
+first. Tab narrows the list to this folder, to the commands that failed, or to
+this shell. The history stays on your computer, and lines that start with a
+space, or look like they set a password, a token or a key, are left out.
 
-The command history came to the Mac in Flow 0.1.22.
+The command history came to the Mac in Flow 0.1.22 and to Windows in 0.1.25.
 
 ## Themes
 
@@ -153,7 +153,7 @@ then starts with the machine's start screen, typed out at the speed of its
 line, and the shell takes the machine's prompt. Fonts of the time are used
 where you have them installed.
 
-Themes came to the Mac in Flow 0.1.22.
+Themes came to the Mac in Flow 0.1.22 and to Windows in 0.1.25.
 
 ## 3D models
 
@@ -167,7 +167,8 @@ sits in the terminal as a picture does: it scrolls, clears and rides the
 liquid. If a program asks Flow to read a model from a file, Flow asks you
 first.
 
-3D models came to the Mac in Flow 0.1.22.
+3D models came to the Mac in Flow 0.1.22 and to Windows in 0.1.25, where a
+program sends them down the same pipe as pictures.
 
 ## Liquid glass
 
