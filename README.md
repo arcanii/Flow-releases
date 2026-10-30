@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-macos"><b>Download for macOS</b></a> ·
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.24-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux"><b>Download for Linux</b></a>
 </p>
 
@@ -323,7 +323,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.24-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
