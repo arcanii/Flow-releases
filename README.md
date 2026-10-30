@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows and macOS with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.21-macos"><b>Download for macOS</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.22-macos"><b>Download for macOS</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -113,7 +113,60 @@ splash as ground opens up, a blast and lightning when a mine goes off, and gold
 when the field is cleared. `?` lists the keys. Small, medium and large fields
 each keep your best time.
 
-Flow Mines came to the Mac and to Windows in Flow 0.1.21.
+Flow Mines came to the Mac and to Windows in Flow 0.1.21. Since 0.1.22 on the
+Mac, Flow hands the mouse to programs that ask for it, so there Flow Mines also
+takes clicks: left opens a tile, right flags one. Hold **Shift** to select text
+over such a program as before.
+
+## Command history
+
+![The command history's search](images/history.png)
+
+Flow keeps the commands you run in its tabs, whatever the shell, with the
+folder each ran in, how it ended and when, and finds them again by any words in
+them. **⌘R** opens the search: type a few words in any order, pick a command,
+and Enter puts it at the prompt to run or change first. Tab narrows the list to
+this folder, to the commands that failed, or to this shell. The history stays
+on your computer, and lines that start with a space, or look like they set a
+password, a token or a key, are left out.
+
+The command history came to the Mac in Flow 0.1.22.
+
+## Themes
+
+<table>
+  <tr>
+    <td><img src="images/theme-home.png" alt="Flow as an 8-bit home computer on a television"></td>
+    <td><img src="images/theme-green.png" alt="Flow as a minicomputer's green screen"></td>
+  </tr>
+  <tr>
+    <td>The <b>Home computer</b> theme</td>
+    <td>The <b>Green screen</b> theme</td>
+  </tr>
+</table>
+
+**Settings → Look → Theme** dresses Flow as an old machine: an 8-bit home
+computer on a television, a workstation, a graphics workstation, or a
+minicomputer at a green screen, an amber screen or a teletype. Each new tab
+then starts with the machine's start screen, typed out at the speed of its
+line, and the shell takes the machine's prompt. Fonts of the time are used
+where you have them installed.
+
+Themes came to the Mac in Flow 0.1.22.
+
+## 3D models
+
+![A 3D model in Flow](images/model.png)
+
+Programs can show 3D models in the terminal, `.obj` and `.glb`, still or
+turning, through the [Ratty graphics
+protocol](https://docs.rs/crate/ratty/0.4.1/source/protocols/graphics.md), so
+a program written for the Ratty terminal shows its models in Flow too. A model
+sits in the terminal as a picture does: it scrolls, clears and rides the
+liquid. If a program asks Flow to read a model from a file, Flow asks you
+first.
+
+3D models came to the Mac in Flow 0.1.22.
 
 ## Liquid glass
 
@@ -269,7 +322,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.21-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.22-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
