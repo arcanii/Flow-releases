@@ -5,9 +5,10 @@
 <h1 align="center">Flow</h1>
 
 <p align="center">
-  A terminal for Windows and macOS with a liquid-glass look and an AI assistant built in.<br>
+  A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-macos"><b>Download for macOS</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-macos"><b>Download for macOS</b></a> ·
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux"><b>Download for Linux</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -19,7 +20,7 @@ Flow runs the shells you already have. On Windows that's cmd, PowerShell and
 bash; if you don't have Git Bash, MSYS2 or WSL, Flow brings its own bash:
 BusyBox, a small POSIX shell with the usual Unix tools. On the Mac it's zsh and
 bash, with a menu bar, a right-click menu and the keys you're used to from
-Terminal.
+Terminal. On Linux it's zsh and bash too, on Wayland or X11.
 
 Programs can show pictures in it, too. Flow speaks the [kitty graphics
 protocol](#images), so image tools such as `viu` and `timg` draw right in the
@@ -331,13 +332,32 @@ macOS 11 or later.
   **Flow → Check for Updates…** checks on demand.
 - `SHA256SUMS-macos.txt` in each macOS release lists the checksum.
 
+### Linux
+
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux),
+for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
+everything since), on Wayland or X11, with a Vulkan driver:
+
+- **Ubuntu, Debian and others with apt:** get
+  **Flow-&lt;version&gt;-linux-amd64.deb** and run
+  `sudo apt install ./Flow-<version>-linux-amd64.deb`. `sudo apt remove
+  flow-terminal` takes it away. Flow tells you when there's a newer release
+  and opens its page.
+- **Any Linux, no root needed:** get **Flow-&lt;version&gt;-linux-x86_64.tar.gz**,
+  unpack it and run `./flow-<version>/install.sh`, which puts Flow in
+  `~/.local` and in your applications (`--uninstall` takes it away). Installed
+  this way, Flow updates itself: it asks once whether to check automatically,
+  and **About → Check for Updates…** checks on demand.
+- Each file's `.sha256` beside it has its checksum.
+
 ## The assistant
 
 The assistant needs an API key from its provider. Flow works as a terminal
 without one and never asks for it on its own. Open Settings (`Ctrl+,`, or `⌘,`
 on the Mac), pick the **Provider** under Assistant (Claude, GPT or Gemini), and
 add that provider's key under **API key**. Each provider keeps its own key, in
-Windows Credential Manager or the macOS Keychain. GPT and Gemini are new in
+Windows Credential Manager, the macOS Keychain, or on Linux the Secret Service
+(GNOME Keyring or KWallet). GPT and Gemini are new in
 Flow, so expect some rough edges.
 
 ![Adding an API key](images/key.png)
@@ -358,12 +378,14 @@ Flow, so expect some rough edges.
 ## What this repo holds
 
 - The [releases](https://github.com/arcanii/Flow-releases/releases): the Windows
-  installers, and the macOS disk images in the releases tagged `-macos`. Since
-  0.1.1, each Windows release also carries the source of the BusyBox it
-  bundles, which is free software under the GPL, version 2.
-- `appcast.xml` and `appcast-macos.xml`, the update feeds that installed copies
-  of Flow read on Windows and on macOS. Every update in them carries an EdDSA
-  signature, and Flow refuses updates that don't verify.
+  installers, the macOS disk images in the releases tagged `-macos`, and the
+  Linux tarballs and .debs in the releases tagged `-linux`. Since 0.1.1, each
+  Windows release also carries the source of the BusyBox it bundles, which is
+  free software under the GPL, version 2.
+- `appcast.xml`, `appcast-macos.xml` and `appcast-linux-x86_64.xml`, the update
+  feeds that installed copies of Flow read on Windows, on macOS and on Linux.
+  Every update in them carries an EdDSA signature, and Flow refuses updates
+  that don't verify.
 
 Flow's source code isn't public yet, but I do plan to make it OpenSource when more mature.
 This is also testing a release repo.
