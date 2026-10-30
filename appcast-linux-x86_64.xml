@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Flow (Linux, x86_64) Updates</title>
+    <link>https://raw.githubusercontent.com/arcanii/Flow-releases/main/appcast-linux-x86_64.xml</link>
+    <description>Most recent updates to Flow for Linux on x86_64</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.1.23</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux</sparkle:releaseNotesLink>
+      <pubDate>Fri, 30 Oct 2026 08:07:46 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.23-linux/Flow-0.1.23-linux-x86_64.tar.gz"
+                 sparkle:version="155"
+                 sparkle:shortVersionString="0.1.23"
+                 sparkle:edSignature="0Y1FgtFAABvq+yFxx7lmpVgwKDWeuYTnyONIAoUk7S4IW4C22Qd1/5FR/g+4fSklKOyAIH0ob9qgelbwRtVjBw=="
+                 length="12262808"
+                 type="application/gzip"/>
+    </item>
+  </channel>
+</rss>
