@@ -64,9 +64,11 @@ scrollback and clears with `clear`. It rides the liquid as text does, and under
 the CRT it gets the scanlines, the curve and the phosphor's glow. Copying text
 leaves pictures out.
 
-Images came to the Mac in Flow 0.1.17. Windows doesn't have them yet: the
-console layer Windows puts between Flow and the shell (ConPTY) drops the
-protocol's escapes.
+Images came to the Mac in Flow 0.1.17. On Windows, image tools can't show
+pictures yet: the console layer Windows puts between Flow and the shell
+(ConPTY) drops the protocol's escapes. Since Flow 0.1.21, a program there can
+send its pictures down a pipe Flow opens for each tab instead (named in
+`FLOW_IMAGE_PIPE`), as Flow Rogue does.
 
 ## Flow Rogue
 
@@ -96,11 +98,10 @@ game's rules are data you can change: `flow-rogue --edit-rules --rules <folder>`
 edits the monsters, items, shops and the rest in the terminal, and
 `flow-rogue --rules <folder>` plays by them.
 
-Flow Rogue came to the Mac in Flow 0.1.18 and to Windows in 0.1.20. On
-Windows it's drawn in letters, as Rogue was: the console layer Windows puts
-between Flow and the shell (ConPTY) drops the pictures the sprites are made of.
-The wilderness, the seven kinds of adventurer and the rules editor came to the
-Mac in 0.1.20, and come to Windows with its next release.
+Flow Rogue came to the Mac in Flow 0.1.18 and to Windows in 0.1.20, drawn in
+letters there at first. Its sprites came to Windows in 0.1.21, with the
+wilderness, the seven kinds of adventurer and the rules editor, which came to
+the Mac in 0.1.20.
 
 ## Flow Mines
 
@@ -112,8 +113,7 @@ splash as ground opens up, a blast and lightning when a mine goes off, and gold
 when the field is cleared. `?` lists the keys. Small, medium and large fields
 each keep your best time.
 
-Flow Mines came to the Mac in Flow 0.1.21, and comes to Windows with its next
-release.
+Flow Mines came to the Mac and to Windows in Flow 0.1.21.
 
 ## Liquid glass
 
@@ -177,7 +177,8 @@ Whatever the style, the glass also shows what your terminal is up to:
 
 Prefer a calm window? Turn off **Reactions** in Settings, or **Programs'
 effects** for the programs' alone. The reactions came to the Mac in Flow 0.1.7
-and to Windows in 0.1.8, and programs' effects to the Mac in 0.1.20.
+and to Windows in 0.1.8, and programs' effects to the Mac in 0.1.20 and to
+Windows in 0.1.21.
 
 ## CRT
 
