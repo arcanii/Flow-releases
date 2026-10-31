@@ -8,7 +8,7 @@
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-macos"><b>Download for macOS</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-linux"><b>Download for Linux</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -99,8 +99,8 @@ game's rules are data you can change: `flow-rogue --edit-rules --rules <folder>`
 edits the monsters, items, shops and the rest in the terminal, and
 `flow-rogue --rules <folder>` plays by them.
 
-Flow Rogue came to the Mac in Flow 0.1.18 and to Windows in 0.1.20, drawn in
-letters there at first. Its sprites came to Windows in 0.1.21, with the
+Flow Rogue came to the Mac in Flow 0.1.18, to Windows in 0.1.20, drawn in
+letters there at first, and to Linux in 0.1.23. Its sprites came to Windows in 0.1.21, with the
 wilderness, the seven kinds of adventurer and the rules editor, which came to
 the Mac in 0.1.20.
 
@@ -114,8 +114,9 @@ splash as ground opens up, a blast and lightning when a mine goes off, and gold
 when the field is cleared. `?` lists the keys. Small, medium and large fields
 each keep your best time.
 
-Flow Mines came to the Mac and to Windows in Flow 0.1.21. Since 0.1.22 on the
-Mac and 0.1.25 on Windows, Flow hands the mouse to programs that ask for it, so
+Flow Mines came to the Mac and to Windows in Flow 0.1.21, and to Linux in
+0.1.23. Since 0.1.22 on the Mac, 0.1.23 on Linux and 0.1.25 on Windows, Flow
+hands the mouse to programs that ask for it, so
 Flow Mines also takes clicks: left opens a tile, right flags one. Hold
 **Shift** to select text over such a program as before.
 
@@ -125,13 +126,14 @@ Flow Mines also takes clicks: left opens a tile, right flags one. Hold
 
 Flow keeps the commands you run in its tabs, whatever the shell, with the
 folder each ran in, how it ended and when, and finds them again by any words in
-them. **⌘R** (**Ctrl+Shift+R** on Windows) opens the search: type a few words
+them. **⌘R** (**Ctrl+Shift+R** on Windows and Linux) opens the search: type a few words
 in any order, pick a command, and Enter puts it at the prompt to run or change
 first. Tab narrows the list to this folder, to the commands that failed, or to
 this shell. The history stays on your computer, and lines that start with a
 space, or look like they set a password, a token or a key, are left out.
 
-The command history came to the Mac in Flow 0.1.22 and to Windows in 0.1.25.
+The command history came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to
+Windows in 0.1.25.
 
 ## Themes
 
@@ -147,13 +149,17 @@ The command history came to the Mac in Flow 0.1.22 and to Windows in 0.1.25.
 </table>
 
 **Settings → Look → Theme** dresses Flow as an old machine: an 8-bit home
-computer on a television, a workstation, a graphics workstation, or a
-minicomputer at a green screen, an amber screen or a teletype. Each new tab
-then starts with the machine's start screen, typed out at the speed of its
-line, and the shell takes the machine's prompt. Fonts of the time are used
-where you have them installed.
+computer on a television, a workstation, a graphics workstation, a
+minicomputer at a green screen, an amber screen or a teletype, a British
+school's micro in its teletext mode, or an eighties PC. Each new tab then
+starts with the machine's start screen, typed out at the speed of its line,
+and the shell takes the machine's prompt. **Your own** theme lets you type a
+start screen and prompt in Settings. VT323 and Bedstead, fonts of their time,
+are built in.
 
-Themes came to the Mac in Flow 0.1.22 and to Windows in 0.1.25.
+Themes came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows in
+0.1.25. The school's micro, the PC, your own theme and the fonts came to all
+three in 0.1.25.
 
 ## 3D models
 
@@ -167,8 +173,8 @@ sits in the terminal as a picture does: it scrolls, clears and rides the
 liquid. If a program asks Flow to read a model from a file, Flow asks you
 first.
 
-3D models came to the Mac in Flow 0.1.22 and to Windows in 0.1.25, where a
-program sends them down the same pipe as pictures.
+3D models came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows
+in 0.1.25, where a program sends them down the same pipe as pictures.
 
 ## Liquid glass
 
@@ -335,7 +341,7 @@ macOS 11 or later.
 
 ### Linux
 
-From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.23-linux),
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-linux),
 for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
 everything since), on Wayland or X11, with a Vulkan driver:
 
@@ -347,8 +353,9 @@ everything since), on Wayland or X11, with a Vulkan driver:
 - **Any Linux, no root needed:** get **Flow-&lt;version&gt;-linux-x86_64.tar.gz**,
   unpack it and run `./flow-<version>/install.sh`, which puts Flow in
   `~/.local` and in your applications (`--uninstall` takes it away). Installed
-  this way, Flow updates itself: it asks once whether to check automatically,
-  and **About → Check for Updates…** checks on demand.
+  this way, Flow installs its own updates: it asks once whether to check
+  daily, **About → Check for Updates…** checks on demand, and **Install
+  Update** puts the new release in place.
 - Each file's `.sha256` beside it has its checksum.
 
 ## The assistant
