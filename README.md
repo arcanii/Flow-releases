@@ -164,7 +164,7 @@ Themes came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows in
 Bedstead came to all three in 0.1.25. The other machines' fonts and most of
 their sounds came to the Mac in 0.1.26, and in 0.1.27 the workstations
 booting as their PROMs did, with their makers' logos, and the teletype's
-own font, Flow Teletype.
+own font, Flow Teletype. Windows got all of them in 0.1.27.
 
 ## 3D models
 
