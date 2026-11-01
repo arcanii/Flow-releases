@@ -8,7 +8,7 @@
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-macos"><b>Download for macOS</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-linux"><b>Download for Linux</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -164,7 +164,7 @@ Themes came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows in
 Bedstead came to all three in 0.1.25. The other machines' fonts and most of
 their sounds came to the Mac in 0.1.26, and in 0.1.27 the workstations
 booting as their PROMs did, with their makers' logos, and the teletype's
-own font, Flow Teletype. Windows got all of them in 0.1.27.
+own font, Flow Teletype. Windows and Linux got all of them in 0.1.27.
 
 ## 3D models
 
@@ -346,15 +346,15 @@ macOS 11 or later.
 
 ### Linux
 
-From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-linux),
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-linux),
 for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
 everything since), on Wayland or X11, with a Vulkan driver:
 
 - **Ubuntu, Debian and others with apt:** get
   **Flow-&lt;version&gt;-linux-amd64.deb** and run
   `sudo apt install ./Flow-<version>-linux-amd64.deb`. `sudo apt remove
-  flow-terminal` takes it away. Flow tells you when there's a newer release
-  and opens its page.
+  flow-terminal` takes it away. Flow tells you when there's a newer release,
+  opens its page, and gives the command that installs it in About.
 - **Any Linux, no root needed:** get **Flow-&lt;version&gt;-linux-x86_64.tar.gz**,
   unpack it and run `./flow-<version>/install.sh`, which puts Flow in
   `~/.local` and in your applications (`--uninstall` takes it away). Installed
