@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.26-macos"><b>Download for macOS</b></a> ·
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.25-linux"><b>Download for Linux</b></a>
 </p>
 
@@ -148,7 +148,7 @@ Windows in 0.1.25.
   </tr>
 </table>
 
-**Settings → Look → Theme** dresses Flow as an old machine: an 8-bit home
+**Theme** in Settings dresses Flow as an old machine: an 8-bit home
 computer on a television, a workstation, a graphics workstation, a
 minicomputer at a green screen, an amber screen or a teletype, a British
 school's micro in its teletext mode, or an eighties PC. Each new tab then
@@ -162,7 +162,9 @@ disk drive, a fan, and its own bell.
 Themes came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows in
 0.1.25. The school's micro, the PC, your own theme and the fonts VT323 and
 Bedstead came to all three in 0.1.25. The other machines' fonts and most of
-their sounds came to the Mac in 0.1.26.
+their sounds came to the Mac in 0.1.26, and in 0.1.27 the workstations
+booting as their PROMs did, with their makers' logos, and the teletype's
+own font, Flow Teletype.
 
 ## 3D models
 
@@ -333,7 +335,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.26-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
