@@ -7,7 +7,7 @@
 <p align="center">
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-macos"><b>Download for macOS</b></a> ·
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.28-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-linux"><b>Download for Linux</b></a>
 </p>
 
@@ -164,7 +164,11 @@ Themes came to the Mac in Flow 0.1.22, to Linux in 0.1.23 and to Windows in
 Bedstead came to all three in 0.1.25. The other machines' fonts and most of
 their sounds came to the Mac in 0.1.26, and in 0.1.27 the workstations
 booting as their PROMs did, with their makers' logos, and the teletype's
-own font, Flow Teletype. Windows and Linux got all of them in 0.1.27.
+own font, Flow Teletype. Windows and Linux got all of them in 0.1.27. In
+0.1.28 on the Mac, **Theme details** turns each part of a machine's theme
+on or off, its sounds one by one, each machine has its own colors for
+programs, and the Workstation's boot lists your computer's own memory and
+slots.
 
 ## 3D models
 
@@ -335,7 +339,7 @@ Get **Flow-&lt;version&gt;-setup.exe** from the
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.28-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
