@@ -168,7 +168,7 @@ own font, Flow Teletype. Windows and Linux got all of them in 0.1.27. In
 0.1.28 on the Mac, **Theme details** turns each part of a machine's theme
 on or off, its sounds one by one, each machine has its own colors for
 programs, and the Workstation's boot lists your computer's own memory and
-slots.
+slots. Windows got them in 0.1.28 too.
 
 ## 3D models
 
