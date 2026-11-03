@@ -8,7 +8,7 @@
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.29-macos"><b>Download for macOS</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.29-linux"><b>Download for Linux</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -168,7 +168,7 @@ own font, Flow Teletype. Windows and Linux got all of them in 0.1.27. In
 0.1.28 on the Mac, **Theme details** turns each part of a machine's theme
 on or off, its sounds one by one, each machine has its own colors for
 programs, and the Workstation's boot lists your computer's own memory and
-slots. Windows got them in 0.1.28 too.
+slots. Windows got them in 0.1.28 too, and Linux in 0.1.29.
 
 ## 3D models
 
@@ -350,7 +350,7 @@ macOS 11 or later.
 
 ### Linux
 
-From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.27-linux),
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.29-linux),
 for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
 everything since), on Wayland or X11, with a Vulkan driver:
 
