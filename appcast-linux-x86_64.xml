@@ -6,14 +6,14 @@
     <description>Most recent updates to Flow for Linux on x86_64</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.29</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.29-linux</sparkle:releaseNotesLink>
-      <pubDate>Tue, 03 Nov 2026 14:34:22 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.29-linux/Flow-0.1.29-linux-x86_64.tar.gz"
-                 sparkle:version="264"
-                 sparkle:shortVersionString="0.1.29"
-                 sparkle:edSignature="Nj7gWFmngz2stDVuhCL9Q3VXaalYvEbNwzPdL+77AXPabIYQRRtJqgdcQkrBEjtSXfNPEoQ/miKs3zX7dbeYDA=="
-                 length="15260765"
+      <title>Version 0.1.30</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.30-linux</sparkle:releaseNotesLink>
+      <pubDate>Wed, 04 Nov 2026 02:15:00 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.30-linux/Flow-0.1.30-linux-x86_64.tar.gz"
+                 sparkle:version="298"
+                 sparkle:shortVersionString="0.1.30"
+                 sparkle:edSignature="feb9+YychkIExOkkrictUQLY257Ec8qeWRlCfXEj/7UTwbF4U9TtfyxRfIYeZcH6WiSNz6OENMKO3mRb+I7JCw=="
+                 length="16218536"
                  type="application/gzip"/>
     </item>
   </channel>
