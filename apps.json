@@ -2,18 +2,18 @@
   "format": 1,
   "apps": {
     "flow-invaders": {
-      "version": "0.1.0",
-      "summary": "Flow Invaders: invaders in 3D, fought with guided missiles from the ground (its first wave)",
+      "version": "0.1.19",
+      "summary": "Flow Invaders: ships come down in waves in 3D, fought from a truck with laser-guided missiles behind concrete panels, with a shop between the waves",
       "programs": [
         "flow-invaders"
       ],
       "downloads": {
         "macos-aarch64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.0/flow-invaders-0.1.0-macos-aarch64.tar.gz",
-          "size": 508460,
-          "sha256": "9f04502d2d5beec47ed0f33a0789ff345b0f57455ce4bc4551746b56fb2d42dc",
-          "signature": "B5ArKpuaI4wbezBROPOy+G/JhlDZbT7hJduzDteQyoF9keWmIjQnJIc76gjmmjD1xumhxtrHedzt0fyrLuxiCw=="
+          "version": "0.1.19",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.19/flow-invaders-0.1.19-macos-aarch64.tar.gz",
+          "size": 6203143,
+          "sha256": "c8323157b443e5bb8fa0beca9f4c7d1540afc2f636c716321e7fb6e0683fc967",
+          "signature": "JfNla80cTWHlBKNeTF5fByaob521By+T4bt4x84Ywh4q0uMnOsoNKCsSSz7WSRQ0SgbvslU35+Z0S+BrnjPTCQ=="
         }
       }
     },
