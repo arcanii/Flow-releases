@@ -8,6 +8,13 @@
         "flow-invaders"
       ],
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.20",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-linux-x86_64.tar.gz",
+          "size": 6643341,
+          "sha256": "ddff5d758e6e26a6f0c678e4feb1cda8e627f6c62a24c1d334b4aa776bc30b14",
+          "signature": "p5lBLFLJXJtBu6WuLUNbeGiV9b97bq0mB8Ok6voS2AsY2Rd3lQLJEDxBemb6Lbq7Tp9kUhJDotlhDpEqx8ugDQ=="
+        },
         "macos-aarch64": {
           "version": "0.1.20",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-macos-aarch64.tar.gz",
@@ -32,6 +39,13 @@
       ],
       "bundled": "flow-mines",
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.6",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-linux-x86_64.tar.gz",
+          "size": 369184,
+          "sha256": "10ee36c58611df7ce5e1298e6b34239f82d4acb84dcebdaef198fa663003cb74",
+          "signature": "iEP621S8XBJV6BWqkt7HTnMkiEp+wLuohZ32AMmTkYEOJHGtYOCm24eLmUwLYc5YHuRDqYuFHjmNQwk6twXYBg=="
+        },
         "macos-aarch64": {
           "version": "0.1.6",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-macos-aarch64.tar.gz",
@@ -56,6 +70,13 @@
       ],
       "bundled": "flow-rogue",
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.46",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-linux-x86_64.tar.gz",
+          "size": 2955977,
+          "sha256": "6a4e2f52e2b761513ffd6fc79b50cc48cb9c134e5403c7a10afec89f7178573f",
+          "signature": "EN4+l5QDYuIAsx6REHyztS0TIM/F/IZi+FIdD+Dz3Q/wA9HzsQEnAnfgqg2zNjZWakLUt40xGYm14+vMyKPaAQ=="
+        },
         "macos-aarch64": {
           "version": "0.1.46",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-macos-aarch64.tar.gz",
@@ -79,6 +100,13 @@
         "flow-demo"
       ],
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-linux-x86_64.tar.gz",
+          "size": 9551233,
+          "sha256": "6a0732931c4016effa1de447bf0db28cf74847f175b7ea94034a37b62ae59bd4",
+          "signature": "ThSEUEb5x0+kHqd2PVlGhWs/nKRUuIFU3Xo1xDurUrFyDbzW1GCYER7KhD0THxk6nvFPIZkV1ZGbBS1m+5TGBQ=="
+        },
         "macos-aarch64": {
           "version": "0.1.2",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-macos-aarch64.tar.gz",
