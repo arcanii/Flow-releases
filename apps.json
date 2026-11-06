@@ -14,6 +14,13 @@
           "size": 6253314,
           "sha256": "9840b61d986456b8338a775170b01cf957acccdf05d954f6f087e09dd3cae4e1",
           "signature": "MxTGLToBQc+xoOI0Kh/0kXRS8kP19xcQkFlFw1X/NbuTJ+QppQrI2iY4/dpY0ZKKd7n3tp5l1D2QN4t6L9zKCA=="
+        },
+        "windows-x86_64": {
+          "version": "0.1.20",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-windows-x86_64.tar.gz",
+          "size": 6150282,
+          "sha256": "c0f48b32d73cd4fd47ce0261f390096f71657577b6a3df4802e530d3f92fb440",
+          "signature": "uVjUsMUa+pyiMneExgUGYq69Kmm6P8BNvbTb9Hi2hAz6rPHp17sTEggTuJBGntSdhjB2dpe+/DCzYuYW++SKDw=="
         }
       }
     },
@@ -64,6 +71,13 @@
           "size": 7102367,
           "sha256": "9bec793b24ea41c00ecda14ba7051a9e34a931cf401fd391def7d2902346cc30",
           "signature": "IktfIAzmicwztLVMxu1FxQzNnZCTtuyoJ/RZec1b9vNHF5FerqRczasGHK1R6AKNO0E9KxGRd+9eO5sqe+HjAg=="
+        },
+        "windows-x86_64": {
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-windows-x86_64.tar.gz",
+          "size": 7939820,
+          "sha256": "2b6bd8e0516ae8ae9f048803f0725dec12fb757383f968c28715103d00f152a6",
+          "signature": "NxBnV9lI9AHKMfXXavXcFlSg2qD0vnnSYftXP+iXO7Qxks95h1+a98cVgDLOnB3kZDhYloXxY8TOHXS6xoNiBQ=="
         }
       }
     }
