@@ -38,6 +38,13 @@
           "size": 367978,
           "sha256": "15441648a1c395451b342136bc47ac6f21e5d0f4f5bece84d9c0f360be634abf",
           "signature": "F3qUBaB8Qch/BGT/FJmdp5IWGs3Hiez85+s8m6fJUzZbYDyHkZp/MVwHvEkpthj9SI/N6X9BML6x/SoK7mkUCA=="
+        },
+        "windows-x86_64": {
+          "version": "0.1.6",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-windows-x86_64.tar.gz",
+          "size": 257627,
+          "sha256": "c97e39996b616de1bf4bc9c43de33a8df5781a901a80ffe1d6a91ced63c8e905",
+          "signature": "XxuNRC00U5kPrJGB0G6/qRhTfQEiXlswlAbnofHnWFPctZ7zTPSeAK92h8ylVsJ9AK0nZDafBkxpuHMn49PVCw=="
         }
       }
     },
@@ -55,6 +62,13 @@
           "size": 2913542,
           "sha256": "04f32c4fae15eae1611c737e717afeb1342c9d2636f92358aae5700a99357f1b",
           "signature": "ZBIq7pR/BQYq6IOpeQq0981KS3GgalLk6Pnk5MhoYmtrnUWaQbWsOCdYECb0ZvrWS43ny5e491/EcYvgRI+JDg=="
+        },
+        "windows-x86_64": {
+          "version": "0.1.46",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-windows-x86_64.tar.gz",
+          "size": 2987046,
+          "sha256": "a0a055c710658aee4936fede7e931f4689cad690d92db453327b7dbf58b2420e",
+          "signature": "yViAOKVCclK3RL0VqZO/UEChYzDgqORhWb7ju2Qo/rmP7KVpuLl78Es8Xw/FrVMvClGEZIgagI4g5x4arUQpCQ=="
         }
       }
     },
