@@ -6,14 +6,14 @@
     <description>Most recent updates to Flow for Windows</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.31.343</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.31.3</sparkle:releaseNotesLink>
-      <pubDate>Wed, 04 Nov 2026 23:30:23 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.31.3/Flow-0.1.31.3-setup.exe"
-                 sparkle:version="0.1.31.343"
-                 sparkle:shortVersionString="0.1.31.3"
-                 sparkle:edSignature="mcYG3h7LC31X/dDHqgcl+wp9JIslcyMJXCR2o/a1PszppJeHZ6NW0ErOZnfM+2i8s2bMzo5PqS3F8PhmQxvdCg=="
-                 length="12995479"
+      <title>Version 0.1.32.367</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.32</sparkle:releaseNotesLink>
+      <pubDate>Fri, 06 Nov 2026 06:13:32 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.32/Flow-0.1.32-setup.exe"
+                 sparkle:version="0.1.32.367"
+                 sparkle:shortVersionString="0.1.32"
+                 sparkle:edSignature="cXKv+VM2NOeNpkfSKx4fhnttawUH1TqwQM6p7Ft/cO65PZks5trfg/jzucZ+B+inbUWyBSDP5zOiwBvjNQEvCg=="
+                 length="13899301"
                  type="application/octet-stream"/>
     </item>
   </channel>
