@@ -28,14 +28,14 @@
         "macos-aarch64": {
           "version": "0.1.6",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-macos-aarch64.tar.gz",
-          "size": 368163,
-          "sha256": "b28fcc7ec5137fb519b9fa0d81adfe35acad9716ec7bb7e3f7cf824fc614fec9",
-          "signature": "KmX9PeAmHH7a4fNw8L/0I7Ugx7DfXE97vt8pYdHk04aFfiH74AD+98RZKz6mWltb9lizrh/wx2v1WlwJWkMhCQ=="
+          "size": 367978,
+          "sha256": "15441648a1c395451b342136bc47ac6f21e5d0f4f5bece84d9c0f360be634abf",
+          "signature": "F3qUBaB8Qch/BGT/FJmdp5IWGs3Hiez85+s8m6fJUzZbYDyHkZp/MVwHvEkpthj9SI/N6X9BML6x/SoK7mkUCA=="
         }
       }
     },
     "flow-rogue": {
-      "version": "0.1.45",
+      "version": "0.1.46",
       "summary": "Flow Rogue: a roguelike in Flow's tabs, with a town, the wilds, lairs and a dungeon to go down, drawn in pictures where the terminal shows them",
       "programs": [
         "flow-rogue"
@@ -43,27 +43,27 @@
       "bundled": "flow-rogue",
       "downloads": {
         "macos-aarch64": {
-          "version": "0.1.45",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.45/flow-rogue-0.1.45-macos-aarch64.tar.gz",
-          "size": 2879986,
-          "sha256": "61ec469652fbe33895ddcd1ca1a6c640b8003010438b35883a80d637cacafe8e",
-          "signature": "d9MCBE6cc8BWGxpI7/Z6yNe6xmXBRWrw95qsUKRowLphRVj1ZLtsrW6P2J3bqL9KNQlE891voowztOhXrSJ3Cw=="
+          "version": "0.1.46",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-macos-aarch64.tar.gz",
+          "size": 2913542,
+          "sha256": "04f32c4fae15eae1611c737e717afeb1342c9d2636f92358aae5700a99357f1b",
+          "signature": "ZBIq7pR/BQYq6IOpeQq0981KS3GgalLk6Pnk5MhoYmtrnUWaQbWsOCdYECb0ZvrWS43ny5e491/EcYvgRI+JDg=="
         }
       }
     },
     "flow-sdk": {
-      "version": "0.1.0",
+      "version": "0.1.2",
       "summary": "Flow's SDK for C and Python, its library, header and Python package, with flow-demo, its demos",
       "programs": [
         "flow-demo"
       ],
       "downloads": {
         "macos-aarch64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.0/flow-sdk-0.1.0-macos-aarch64.tar.gz",
-          "size": 7093925,
-          "sha256": "4fcd823ebda0aa7ea28400ed9a674637b259022e291e7562757b03b3fbca6b35",
-          "signature": "2bvP09/pk4jtSqqNR1TdiDjbW8di1wpoVDz6knI+YeXizheSMBAAzMBCsj2P7xDZX+GNDa8IzvHL0kJWgq44Dg=="
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-macos-aarch64.tar.gz",
+          "size": 7102367,
+          "sha256": "9bec793b24ea41c00ecda14ba7051a9e34a931cf401fd391def7d2902346cc30",
+          "signature": "IktfIAzmicwztLVMxu1FxQzNnZCTtuyoJ/RZec1b9vNHF5FerqRczasGHK1R6AKNO0E9KxGRd+9eO5sqe+HjAg=="
         }
       }
     }
