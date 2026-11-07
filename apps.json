@@ -23,11 +23,11 @@
           "signature": "6FiWDO83zsgrbLnXu4vAbFzH4BiuXZ7hTI5RUeQAa+eY0NQEBfNj68jv+1sTiLbCpfzDk9V+CvyGMd3KUXDiCQ=="
         },
         "windows-x86_64": {
-          "version": "0.1.20",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-windows-x86_64.tar.gz",
-          "size": 6150282,
-          "sha256": "c0f48b32d73cd4fd47ce0261f390096f71657577b6a3df4802e530d3f92fb440",
-          "signature": "uVjUsMUa+pyiMneExgUGYq69Kmm6P8BNvbTb9Hi2hAz6rPHp17sTEggTuJBGntSdhjB2dpe+/DCzYuYW++SKDw=="
+          "version": "0.1.21",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.21/flow-invaders-0.1.21-windows-x86_64.tar.gz",
+          "size": 6585861,
+          "sha256": "6e478cc27b64dc0287586e297192bd54df0c6ac4d5bd792316c41365d1a3467f",
+          "signature": "bz2cuJfNNEBupv7hITYrNhDH3FHaZkJjvC510v8FICt4KJ/sHVSlajeBld3tVlH+u9Jq9mao8UIddkTp8XXiCg=="
         }
       }
     },
