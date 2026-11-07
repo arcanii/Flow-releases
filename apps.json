@@ -2,7 +2,7 @@
   "format": 1,
   "apps": {
     "flow-invaders": {
-      "version": "0.1.20",
+      "version": "0.1.21",
       "summary": "Flow Invaders: ships come down in waves in 3D, fought from a truck with laser-guided missiles behind concrete panels, with a shop between the waves",
       "programs": [
         "flow-invaders"
@@ -16,11 +16,11 @@
           "signature": "p5lBLFLJXJtBu6WuLUNbeGiV9b97bq0mB8Ok6voS2AsY2Rd3lQLJEDxBemb6Lbq7Tp9kUhJDotlhDpEqx8ugDQ=="
         },
         "macos-aarch64": {
-          "version": "0.1.20",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-macos-aarch64.tar.gz",
-          "size": 6253314,
-          "sha256": "9840b61d986456b8338a775170b01cf957acccdf05d954f6f087e09dd3cae4e1",
-          "signature": "MxTGLToBQc+xoOI0Kh/0kXRS8kP19xcQkFlFw1X/NbuTJ+QppQrI2iY4/dpY0ZKKd7n3tp5l1D2QN4t6L9zKCA=="
+          "version": "0.1.21",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.21/flow-invaders-0.1.21-macos-aarch64.tar.gz",
+          "size": 7426111,
+          "sha256": "13add4c2835424c50b470047f6e635e7b7c0454ad3c7291c457a36e41cbb95aa",
+          "signature": "6FiWDO83zsgrbLnXu4vAbFzH4BiuXZ7hTI5RUeQAa+eY0NQEBfNj68jv+1sTiLbCpfzDk9V+CvyGMd3KUXDiCQ=="
         },
         "windows-x86_64": {
           "version": "0.1.20",
