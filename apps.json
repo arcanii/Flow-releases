@@ -9,11 +9,11 @@
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.20",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.20/flow-invaders-0.1.20-linux-x86_64.tar.gz",
-          "size": 6643341,
-          "sha256": "ddff5d758e6e26a6f0c678e4feb1cda8e627f6c62a24c1d334b4aa776bc30b14",
-          "signature": "p5lBLFLJXJtBu6WuLUNbeGiV9b97bq0mB8Ok6voS2AsY2Rd3lQLJEDxBemb6Lbq7Tp9kUhJDotlhDpEqx8ugDQ=="
+          "version": "0.1.21",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.21/flow-invaders-0.1.21-linux-x86_64.tar.gz",
+          "size": 6617431,
+          "sha256": "a156be9defc94921dc0774ec2d14e22d6cf3e53b041fbc40b4232957333950c7",
+          "signature": "tzT7sKf/7ZT9H7HkfmVvZTcGYM6aZIhD4Yw3+hTkqCJdv9/fEWUapExytksEPQsargLuQHTx2siJuvVoVFxfAg=="
         },
         "macos-aarch64": {
           "version": "0.1.21",
