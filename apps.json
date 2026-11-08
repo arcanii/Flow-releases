@@ -147,5 +147,21 @@
         }
       }
     }
+  },
+  "themes": {
+    "flow-core-themes": {
+      "version": "0.1.0",
+      "summary": "Flow's ten machines as themes, built into Flow too: a newer one here takes a built-in theme's place",
+      "programs": [],
+      "downloads": {
+        "any": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-core-themes-v0.1.0/flow-core-themes-0.1.0.tar.gz",
+          "size": 3356,
+          "sha256": "3b60ab9d9e767ad269d6f55283e6d5debe3f34712d3d685ce7e380b4c3687b41",
+          "signature": "LgeRlHf6yksaQV8vStrT0+OLpqzG0hTsVGKDR0ZN2bbTbQxii6DzOQXXvl865KFonYuTuwW7EzhPXgt569/zAQ=="
+        }
+      }
+    }
   }
 }
