@@ -124,8 +124,8 @@
       }
     },
     "flow-utils": {
-      "version": "0.1.2",
-      "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps and top written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
+      "version": "0.2.0",
+      "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps, top, wc, cal, stat, free, diff and which written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
       "programs": [
         "man",
         "ls",
@@ -135,7 +135,13 @@
         "du",
         "df",
         "ps",
-        "top"
+        "top",
+        "wc",
+        "cal",
+        "stat",
+        "free",
+        "diff",
+        "which"
       ],
       "downloads": {
         "linux-x86_64": {
@@ -146,11 +152,11 @@
           "signature": "CN6im73R/wF4y/KaYJy/KY+bfyXJWGB7Pfnd8ZNJ4lchqK6UC9NI7i37Uo05zchkYn+6TkRrFQT1855ZG1PiBw=="
         },
         "macos-aarch64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.1.0/flow-utils-0.1.0-macos-aarch64.tar.gz",
-          "size": 6570738,
-          "sha256": "32b1c6997a5674024ba683412f5ae4ef0369b991d776542e2004bb2a0c80f00d",
-          "signature": "M2zTMsbg86neXLuh+vB8jLZOv0bkRX1N7oWEAvcWHKQNPv4wTIe/kY657qEygP6bXvye/MK8pU+QUPqvSBQkBA=="
+          "version": "0.2.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.2.0/flow-utils-0.2.0-macos-aarch64.tar.gz",
+          "size": 8696873,
+          "sha256": "678aefa1ab184d2c90ab66ff46fa65003878f63914b91b91953897b657074a2a",
+          "signature": "FON/bXYurhYgJmFKDx1uM9di6KBGoDn4k6KtPkB4gjmPWKDdt4jkaKiEwRsS7cX0k3XlYlcX9fFbDTz9RHC5AA=="
         },
         "windows-x86_64": {
           "version": "0.1.2",
