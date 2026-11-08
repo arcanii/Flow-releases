@@ -124,7 +124,7 @@
       }
     },
     "flow-utils": {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps and top written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
       "programs": [
         "man",
@@ -138,6 +138,13 @@
         "top"
       ],
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.1.1/flow-utils-0.1.1-linux-x86_64.tar.gz",
+          "size": 6716465,
+          "sha256": "3a715c922fa157d1aa9684c08534b1e48b0c21d0d9bdd51a749120001f689170",
+          "signature": "CN6im73R/wF4y/KaYJy/KY+bfyXJWGB7Pfnd8ZNJ4lchqK6UC9NI7i37Uo05zchkYn+6TkRrFQT1855ZG1PiBw=="
+        },
         "macos-aarch64": {
           "version": "0.1.0",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.1.0/flow-utils-0.1.0-macos-aarch64.tar.gz",
