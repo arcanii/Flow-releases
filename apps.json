@@ -122,6 +122,30 @@
           "signature": "NxBnV9lI9AHKMfXXavXcFlSg2qD0vnnSYftXP+iXO7Qxks95h1+a98cVgDLOnB3kZDhYloXxY8TOHXS6xoNiBQ=="
         }
       }
+    },
+    "flow-utils": {
+      "version": "0.1.0",
+      "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps and top written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
+      "programs": [
+        "man",
+        "ls",
+        "tree",
+        "cat",
+        "file",
+        "du",
+        "df",
+        "ps",
+        "top"
+      ],
+      "downloads": {
+        "macos-aarch64": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.1.0/flow-utils-0.1.0-macos-aarch64.tar.gz",
+          "size": 6570738,
+          "sha256": "32b1c6997a5674024ba683412f5ae4ef0369b991d776542e2004bb2a0c80f00d",
+          "signature": "M2zTMsbg86neXLuh+vB8jLZOv0bkRX1N7oWEAvcWHKQNPv4wTIe/kY657qEygP6bXvye/MK8pU+QUPqvSBQkBA=="
+        }
+      }
     }
   }
 }
