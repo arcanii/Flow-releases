@@ -124,8 +124,8 @@
       }
     },
     "flow-utils": {
-      "version": "0.2.0",
-      "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps, top, wc, cal, stat, free, diff and which written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
+      "version": "0.3.0",
+      "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps, top, wc, cal, stat, free, diff, which, pstree, uptime, env, printenv, column, uniq, ping and btop written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
       "programs": [
         "man",
         "ls",
@@ -141,29 +141,37 @@
         "stat",
         "free",
         "diff",
-        "which"
+        "which",
+        "pstree",
+        "uptime",
+        "env",
+        "printenv",
+        "column",
+        "uniq",
+        "ping",
+        "btop"
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.2.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.2.0/flow-utils-0.2.0-linux-x86_64.tar.gz",
-          "size": 8812927,
-          "sha256": "ac97a6bf3f21eff67b31adbc19d0699febc19fabbe7a1fc34cb553b917ca71cf",
-          "signature": "1FHdemb5RFPt/TxSMO4384/RzG7SgRPGUJoXYCOlzPaDlglHpRGTwr2AZIYJproaNQsbXOdHtVlGMAiL3VmaDg=="
+          "version": "0.3.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.3.0/flow-utils-0.3.0-linux-x86_64.tar.gz",
+          "size": 12004716,
+          "sha256": "cb7607b3f8d2154f524d75bad0f6be2dda7b8d1ec746e35a3f94d8a0cafeda63",
+          "signature": "P7nHYsFzmI3eG2C9NBVpHH7CtpVU9JaupNH0ezRuYe4VOdIZxje3eqHC/UqD0F8BtAOeUPmk9RmfXvQ5D/gmDA=="
         },
         "macos-aarch64": {
-          "version": "0.2.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.2.0/flow-utils-0.2.0-macos-aarch64.tar.gz",
-          "size": 8696873,
-          "sha256": "678aefa1ab184d2c90ab66ff46fa65003878f63914b91b91953897b657074a2a",
-          "signature": "FON/bXYurhYgJmFKDx1uM9di6KBGoDn4k6KtPkB4gjmPWKDdt4jkaKiEwRsS7cX0k3XlYlcX9fFbDTz9RHC5AA=="
+          "version": "0.3.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.3.0/flow-utils-0.3.0-macos-aarch64.tar.gz",
+          "size": 11818640,
+          "sha256": "306c290bda41df4bb1154dc6cbf856395341b18784d1578dd0c05a4358c61ff8",
+          "signature": "fpz+spMpkn/2QE8m8nqPAgocjAkANta/yws1izGK4Xlex/a53M3l/gNkmWPA0iwCkcxMwDiSewcvwJXgzYjxBQ=="
         },
         "windows-x86_64": {
-          "version": "0.2.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.2.0/flow-utils-0.2.0-windows-x86_64.tar.gz",
-          "size": 7520792,
-          "sha256": "1a20966b76db168cfc9d378e58d63f46b541953b36404a024c2b84a0a45f9a47",
-          "signature": "c+Bln8pSqa913skw5HaIs4ZINblxMeIKxqpkpPouRvh8T9eGyhng5R2nU8ORMfWyFZN8mp16xM6yxC1UiICODQ=="
+          "version": "0.3.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.3.0/flow-utils-0.3.0-windows-x86_64.tar.gz",
+          "size": 9543290,
+          "sha256": "91e34b943fa67f57eeb37e8512a6a43efd25558a73b2fb9311317c3e35fd6a93",
+          "signature": "Kch+aHsCQ7EQsGoAZiERwFMWON/zOxSdsudrhqlVJHtmjbLicZJLlNrqE6EK5uG3eyOUQEIcKu8wIsY9OLjTAg=="
         }
       }
     }
