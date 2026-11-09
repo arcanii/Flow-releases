@@ -62,6 +62,36 @@
         }
       }
     },
+    "flow-phonebook": {
+      "version": "0.1.0",
+      "summary": "Flow Phonebook: dial lists the BBSes in Flow's phonebook and calls one over SSH, so a board's pictures, models, effects and sounds reach your tab through a guard that lets nothing else past",
+      "programs": [
+        "dial"
+      ],
+      "downloads": {
+        "linux-x86_64": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-linux-x86_64.tar.gz",
+          "size": 3034465,
+          "sha256": "db1e05d4e6e1f4ec6dda1cd8245a5497fbc002f7934566771e4fc6734307ab24",
+          "signature": "rPkybP6PGEAgt4AlBXtJVmXnyToOcl/gVchKr/zqkwi0sBNPteLynkRHJSeMwv+2YnMS3ufytQumwT8Zo6GZCw=="
+        },
+        "macos-aarch64": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-macos-aarch64.tar.gz",
+          "size": 2960044,
+          "sha256": "3e544201afe4de904a7832de58b3cd9b800ce48900451e3774c85006e430753a",
+          "signature": "M6WdLDzNA9Us7WxBvSOGKjjLB4k9UxCBi4kRjDfifhlE05S2510ctxrxQm0mem0+EM9Sm6Ooa+Wo6RGdrqHsCA=="
+        },
+        "windows-x86_64": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-windows-x86_64.tar.gz",
+          "size": 2824632,
+          "sha256": "546950dc8a80005b4efc83b2bbc709e7f28a495cb433ffe97d75463fe8751bb0",
+          "signature": "9/hUDC80jAe0ImmHBSyRPucDAKw1AzS8wauGBWu0TuUL0u5PDQJlRBt4WCmiTlSIiAom+gDqZhvUEcNoZbwcAQ=="
+        }
+      }
+    },
     "flow-rogue": {
       "version": "0.1.46",
       "summary": "Flow Rogue: a roguelike in Flow's tabs, with a town, the wilds, lairs and a dungeon to go down, drawn in pictures where the terminal shows them",
