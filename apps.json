@@ -9,11 +9,11 @@
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.21",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.21/flow-invaders-0.1.21-linux-x86_64.tar.gz",
-          "size": 6617431,
-          "sha256": "a156be9defc94921dc0774ec2d14e22d6cf3e53b041fbc40b4232957333950c7",
-          "signature": "tzT7sKf/7ZT9H7HkfmVvZTcGYM6aZIhD4Yw3+hTkqCJdv9/fEWUapExytksEPQsargLuQHTx2siJuvVoVFxfAg=="
+          "version": "0.1.26",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.26/flow-invaders-0.1.26-linux-x86_64.tar.gz",
+          "size": 9761101,
+          "sha256": "bd6af6711f600ef9c4783031daae1ed06ffcdbc11ad7e93203bf17f6c0cfef7c",
+          "signature": "ZkT5LO5YTGmZL6U6HT8Wm9PWPAyW+587UmaVY4j5JdtpyBGXhIlfyJiNASb9lYZ4vK53iY0rsCQPdsVsVuBFAA=="
         },
         "macos-aarch64": {
           "version": "0.1.26",
@@ -145,11 +145,11 @@
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.1.1/flow-utils-0.1.1-linux-x86_64.tar.gz",
-          "size": 6716465,
-          "sha256": "3a715c922fa157d1aa9684c08534b1e48b0c21d0d9bdd51a749120001f689170",
-          "signature": "CN6im73R/wF4y/KaYJy/KY+bfyXJWGB7Pfnd8ZNJ4lchqK6UC9NI7i37Uo05zchkYn+6TkRrFQT1855ZG1PiBw=="
+          "version": "0.2.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.2.0/flow-utils-0.2.0-linux-x86_64.tar.gz",
+          "size": 8812927,
+          "sha256": "ac97a6bf3f21eff67b31adbc19d0699febc19fabbe7a1fc34cb553b917ca71cf",
+          "signature": "1FHdemb5RFPt/TxSMO4384/RzG7SgRPGUJoXYCOlzPaDlglHpRGTwr2AZIYJproaNQsbXOdHtVlGMAiL3VmaDg=="
         },
         "macos-aarch64": {
           "version": "0.2.0",
