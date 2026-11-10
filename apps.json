@@ -63,32 +63,32 @@
       }
     },
     "flow-phonebook": {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "summary": "Flow Phonebook: dial lists the BBSes in Flow's phonebook and calls one over SSH, so a board's pictures, models, effects and sounds reach your tab through a guard that lets nothing else past",
       "programs": [
         "dial"
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-linux-x86_64.tar.gz",
-          "size": 3034465,
-          "sha256": "db1e05d4e6e1f4ec6dda1cd8245a5497fbc002f7934566771e4fc6734307ab24",
-          "signature": "rPkybP6PGEAgt4AlBXtJVmXnyToOcl/gVchKr/zqkwi0sBNPteLynkRHJSeMwv+2YnMS3ufytQumwT8Zo6GZCw=="
+          "version": "0.1.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-linux-x86_64.tar.gz",
+          "size": 3036899,
+          "sha256": "93b74549f61f97e74653a81b5ad8518d877664495203c3c6fda89cc612a5be3c",
+          "signature": "iStWGmdv+bwWPNOAuQQKYYsAWgHAOsI+7Nm13iM0go5rrywwzNCG3emNun5nL+qx9QYEE7rrONIRmAgIbHxCCg=="
         },
         "macos-aarch64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-macos-aarch64.tar.gz",
-          "size": 2960044,
-          "sha256": "3e544201afe4de904a7832de58b3cd9b800ce48900451e3774c85006e430753a",
-          "signature": "M6WdLDzNA9Us7WxBvSOGKjjLB4k9UxCBi4kRjDfifhlE05S2510ctxrxQm0mem0+EM9Sm6Ooa+Wo6RGdrqHsCA=="
+          "version": "0.1.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-macos-aarch64.tar.gz",
+          "size": 2959956,
+          "sha256": "ea0e2b4b82c9ae510aa167695cf4f3744fa9ada5eb34f36bf8f51f8d4a3ee103",
+          "signature": "8V6kBR0w0b0FiSn51K+X8f8G9Ny3xVwVn0uk6BWFbRSK2jDvyfGVTKsCKhMrc5KzyfSXFVoPamvl2KX4pUunAQ=="
         },
         "windows-x86_64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.0/flow-phonebook-0.1.0-windows-x86_64.tar.gz",
-          "size": 2824632,
-          "sha256": "546950dc8a80005b4efc83b2bbc709e7f28a495cb433ffe97d75463fe8751bb0",
-          "signature": "9/hUDC80jAe0ImmHBSyRPucDAKw1AzS8wauGBWu0TuUL0u5PDQJlRBt4WCmiTlSIiAom+gDqZhvUEcNoZbwcAQ=="
+          "version": "0.1.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-windows-x86_64.tar.gz",
+          "size": 2826195,
+          "sha256": "d4d3055de340381d6f0dc6f3e9ed2f0962e24738c579785b61c007970831bf4b",
+          "signature": "kP1FSKu9tb/iee+BmXuZckf8YHFRUFwbaCijXPXGJ9x0Uz+Fx0f5EQuzBYTDjXbQ9R0stiXwVquSjBqKBI4WBg=="
         }
       }
     },
