@@ -8,7 +8,7 @@
   A terminal for Windows, macOS and Linux with a liquid-glass look and an AI assistant built in.<br>
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37-macos"><b>Download for macOS</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.1-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.2-linux"><b>Download for Linux</b></a>
 </p>
 
 Type commands as usual, or describe what you want in plain English. The
@@ -350,7 +350,7 @@ macOS 11 or later.
 
 ### Linux
 
-From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.1-linux),
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.2-linux),
 for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
 everything since), on Wayland or X11, with a Vulkan driver:
 
