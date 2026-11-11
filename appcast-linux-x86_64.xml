@@ -6,20 +6,20 @@
     <description>Most recent updates to Flow for Linux on x86_64</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.37.3</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.3-linux</sparkle:releaseNotesLink>
-      <pubDate>Wed, 11 Nov 2026 08:07:27 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.37.3-linux/Flow-0.1.37.3-linux-x86_64.tar.gz"
-                 sparkle:version="539"
-                 sparkle:shortVersionString="0.1.37.3"
-                 sparkle:edSignature="ZX4wTeysdItEg4WMv3p7ZVbHgysuGT0MH7wZoGXwHThlzifoD1Ij88yRm4UF0lFc79ce/0quz+bqAcsOp/O7BQ=="
-                 length="16973727"
+      <title>Version 0.1.37.4</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.37.4-linux</sparkle:releaseNotesLink>
+      <pubDate>Wed, 11 Nov 2026 08:20:07 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.37.4-linux/Flow-0.1.37.4-linux-x86_64.tar.gz"
+                 sparkle:version="540"
+                 sparkle:shortVersionString="0.1.37.4"
+                 sparkle:edSignature="31SYNWE9UZVbI49JF5y9xhZAzj+QyUOSJ6523pLDqb1zYvveF3aajRDVy00cx0wsnr8Xl3yJWAt2pSjTSGc4BA=="
+                 length="16973761"
                  type="application/gzip"/>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.37.3-linux/Flow-0.1.37.3-linux-amd64.deb"
-                 sparkle:version="539"
-                 sparkle:shortVersionString="0.1.37.3"
-                 sparkle:edSignature="Uw7MtuTKfbGvtbwuN3VNk86FGzrNnis0gIfc4z3mClE5Zwu2m1DFTc3y+l70G6qOcGEi6SMhfYFq6Jg2sMsJCQ=="
-                 length="11921104"
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.37.4-linux/Flow-0.1.37.4-linux-amd64.deb"
+                 sparkle:version="540"
+                 sparkle:shortVersionString="0.1.37.4"
+                 sparkle:edSignature="d7fYQtOXfYzLNLFpujudHxYCrkThtxcMYai0LqIzicfW+IJdbItDXTc8sgCV9RArEyC+EwrTWBkSrIgDu+1oCA=="
+                 length="11922864"
                  type="application/vnd.debian.binary-package"/>
     </item>
   </channel>
