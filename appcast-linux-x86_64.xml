@@ -6,20 +6,20 @@
     <description>Most recent updates to Flow for Linux on x86_64</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.38</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.38-linux</sparkle:releaseNotesLink>
-      <pubDate>Fri, 13 Nov 2026 03:46:45 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.38-linux/Flow-0.1.38-linux-x86_64.tar.gz"
-                 sparkle:version="558"
-                 sparkle:shortVersionString="0.1.38"
-                 sparkle:edSignature="iIuSpU3QywTv+knnOVGZRjYG0PMxIKSn0/A1HJq0jhP9R0bAU3DW7m472JonQxNeEDmafIbG5mX93IulLkRxAQ=="
-                 length="17197802"
+      <title>Version 0.1.39</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.39-linux</sparkle:releaseNotesLink>
+      <pubDate>Fri, 13 Nov 2026 16:06:55 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.39-linux/Flow-0.1.39-linux-x86_64.tar.gz"
+                 sparkle:version="584"
+                 sparkle:shortVersionString="0.1.39"
+                 sparkle:edSignature="yx7H5b+DLE93z+9EOtEhHFQdy+xkU1paLJnj40mRHq/K9NC0ZCjD+koLmjuCLImKb9b8Ylaiigr7u8LHyG4/AQ=="
+                 length="17468715"
                  type="application/gzip"/>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.38-linux/Flow-0.1.38-linux-amd64.deb"
-                 sparkle:version="558"
-                 sparkle:shortVersionString="0.1.38"
-                 sparkle:edSignature="gKYTW/Qc7obyEiVsaeqWWc9b0D1vh2caPv4xVGyXXhq31KaZzrCAK9kckIV0iWPufMkR0C4KXiF037TuAl4fCQ=="
-                 length="12060664"
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.39-linux/Flow-0.1.39-linux-amd64.deb"
+                 sparkle:version="584"
+                 sparkle:shortVersionString="0.1.39"
+                 sparkle:edSignature="I17S8BJYPaw793lCX2oJwewil/yBmQr8XLABxZ8CCWSR3VPQAOkK7KWN7YUQAMkGZtqeqSrnfqyjcJ7EoVm2DQ=="
+                 length="12288848"
                  type="application/vnd.debian.binary-package"/>
     </item>
   </channel>
