@@ -154,7 +154,7 @@
       }
     },
     "flow-utils": {
-      "version": "0.4.1",
+      "version": "0.4.2",
       "summary": "Flow-Utils: man, ls, tree, cat, file, du, df, ps, top, wc, cal, stat, free, diff, which, pstree, uptime, env, printenv, column, uniq, ping, btop, date, xxd, hexdump and sensors written again for Flow, drawing pictures, models, bars and box drawing in its tabs and handing everything else to the system's own",
       "programs": [
         "man",
@@ -201,11 +201,11 @@
           "signature": "5yL3u776IJ48f51G+YOVuVfqV7jDB1Md65bUsxJfFsGqp5xmTXLPBBPaYq9nek1ayc75kLAggh6DEt6JXW5kBA=="
         },
         "windows-x86_64": {
-          "version": "0.4.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.4.0/flow-utils-0.4.0-windows-x86_64.tar.gz",
-          "size": 11466748,
-          "sha256": "b913c05a456aec6dbb4ec7af746b0d5b7dbeb218713511995563ac1cc62f50c7",
-          "signature": "C5KqsCkqGN3LCG5xOES1mtzSRhsoB9l+U0pUOSEX/pnKjguQrBRYK1lodFrtwS9YRZnsg/Ix2ulcb9sbFVEVBA=="
+          "version": "0.4.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.4.2/flow-utils-0.4.2-windows-x86_64.tar.gz",
+          "size": 11493863,
+          "sha256": "24f4b092a00dae64111fc409e35a6b3729fbf056bfa76f7f34604402b1a89050",
+          "signature": "pTWZfx4aL5CEbNn+LICO96mCyl0IcFplmZYChqw2fJKR5WT2H6/QwqPAgAvQ8EBjVGzK5y1RffdHneBQnfM5Cw=="
         }
       }
     }
