@@ -139,11 +139,11 @@
           "signature": "Lr421ig7eiS5e0f3J6kP2e0OuOVdAzcfYHdTtkRkYlG01VlOzNhxS8bUt0ci9GJ9PoXECbSFJ1ax+Fe2tfsnAw=="
         },
         "macos-aarch64": {
-          "version": "0.1.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.0/flow-say-0.1.0-macos-aarch64.tar.gz",
-          "size": 16462340,
-          "sha256": "29f94e542e80d3a641996e9f2ee9f0b7177b13f00e56f6865943c010865c37de",
-          "signature": "d3lwHEeQPUfG7rrEqRTJ2qxovsH+6izmiEA0WMdM0yMJEC6Rzt6GgrpZwFLCGVT/rtWh6XtFX9ZwBPtm65EuAw=="
+          "version": "0.1.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-macos-aarch64.tar.gz",
+          "size": 16462035,
+          "sha256": "46682878188d353f54f983dc6e26c1d38b4a765e587fb08e5205778f6c7a1b2c",
+          "signature": "G4/OI3sqyZi/nlfl66N+uo9dRyHDBWM6XzqFfBYXrwJyGtbgII78Zbk28xTzotaOzQwYqZ7zc9rMHJ79OpF+Ag=="
         },
         "windows-x86_64": {
           "version": "0.1.1",
