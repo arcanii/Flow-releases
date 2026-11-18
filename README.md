@@ -17,6 +17,7 @@
   <img src="https://img.shields.io/badge/Assistant-Claude%20%C2%B7%20GPT%20%C2%B7%20Gemini-7CE7FF?style=for-the-badge&logo=claude&logoColor=black" alt="Assistant: Claude, GPT or Gemini">
   <img src="https://img.shields.io/badge/Pictures-kitty%20%C2%B7%20Sixel%20%C2%B7%20iTerm2-7CE7FF?style=for-the-badge" alt="Pictures: kitty, Sixel and iTerm2">
   <img src="https://img.shields.io/badge/3D-glTF%20%C2%B7%20OBJ-7CE7FF?style=for-the-badge" alt="3D models: glTF and OBJ">
+  <img src="https://img.shields.io/badge/MCP-servers%20%C2%B7%20outside%20apps-7CE7FF?style=for-the-badge" alt="MCP: the assistant uses servers, and outside apps use Flow">
   <img src="https://img.shields.io/badge/Rust-wgpu-B78CFF?style=for-the-badge&logo=rust&logoColor=black" alt="Written in Rust, drawn with wgpu">
   <img src="https://img.shields.io/badge/Languages-English%20%C2%B7%20%E6%97%A5%E6%9C%AC%E8%AA%9E-B78CFF?style=for-the-badge" alt="English and Japanese">
   <img src="https://img.shields.io/badge/Updates-signed%20Ed25519-B78CFF?style=for-the-badge" alt="Signed updates">
@@ -145,6 +146,44 @@ folder and the last 40 lines of the terminal, so mind what's on screen if it
 shows secrets. Each provider's key is kept in the macOS Keychain, Windows
 Credential Manager, or on Linux the Secret Service, and a token cap in
 Settings stops it at a total you choose.
+
+### MCP, both ways
+
+<table>
+  <tr>
+    <td><img src="images/mcp-call.png" alt="The assistant calling a notes app's MCP server, its next call waiting for a yes"></td>
+    <td><img src="images/settings-mcp-servers.png" alt="Settings' MCP servers"></td>
+  </tr>
+  <tr>
+    <td>The assistant using a notes app's MCP server, asking before a call</td>
+    <td><b>Settings → MCP servers</b>: each server, and a switch for each tool</td>
+  </tr>
+  <tr>
+    <td><img src="images/mcp-ask-form.png" alt="An MCP server asking a question as a form"></td>
+    <td><img src="images/mcp-ask.png" alt="Claude Code asking to use Flow"></td>
+  </tr>
+  <tr>
+    <td>A server asking you something, as a form of its own</td>
+    <td>An outside app asking to use Flow, the first time</td>
+  </tr>
+</table>
+
+**The assistant uses your MCP servers:** a notes app, an issue tracker, a
+database, whatever you already use with Claude Desktop or Claude Code. Add
+them in Settings, or paste in their config as those apps write it. A server
+is a program Flow starts, or a remote one, which Flow signs in to through
+your browser. Nothing runs until you connect a server, each of its tools
+stays off until you turn it on, and each call asks first unless you allow
+it. The assistant can read a server's resources, you can run its prompts
+from the panel (`/<server>:<prompt>`), a server can ask you something on a
+card of its own, and the assistant's journal keeps every call.
+
+**Outside apps use Flow:** turn on **Settings → Outside apps**, and Claude
+Code, Claude Desktop or Cursor can use Flow through `flow-mcp`, which comes
+with it: read your tabs, open tabs and panes, change Flow's settings, and
+run commands in panes of their own. Each app is asked the first time what it
+may do, commands can ask each time (a risky one always does), and Flow
+listens only where you alone can reach it, never on the network.
 
 ### Tabs, panes and finding your way
 
