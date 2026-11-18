@@ -264,6 +264,21 @@
     }
   },
   "skills": {
+    "flow-filmcraft": {
+      "version": "0.1.0",
+      "summary": "Skills for Flow's assistant to drive FilmCraft (video editing, by ArtCraft) on Windows through its MCP server: connecting it, editing, subtitles from a Whisper transcript, titles and voiceovers",
+      "programs": [],
+      "downloads": {
+        "any": {
+          "version": "0.1.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-filmcraft-v0.1.0/flow-filmcraft-0.1.0.tar.gz",
+          "size": 12340,
+          "sha256": "f3cdae9e6c9c58b0efbf502504c6bd357a8f9d244539f70b29b6ebe026c7010b",
+          "signature": "8bwWPXRIusEKN8DNIInn9b4LRunD/3aQgQZuwkrBNxtGaCVrzB9s9JbPxaLtQjFBaN2wVQArIERtQGX7pcv5CA==",
+          "flow": "0.1.43"
+        }
+      }
+    },
     "flow-skills": {
       "version": "0.1.0",
       "summary": "Flow's own skills for the assistant: theme packages, Flow's SDK, flowapp and flow-settings",
