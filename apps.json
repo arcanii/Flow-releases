@@ -266,6 +266,25 @@
           "signed": "2026-11-16"
         }
       }
+    },
+    "flowapp": {
+      "version": "0.2.0",
+      "summary": "flowapp, which keeps Flow's apps: newer than the copy your Flow carries, it runs in Flow's tabs in that one's place",
+      "programs": [
+        "flowapp"
+      ],
+      "bundled": "flowapp",
+      "downloads": {
+        "macos-aarch64": {
+          "version": "0.2.0",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.0/flowapp-0.2.0-macos-aarch64.tar.gz",
+          "size": 2029299,
+          "sha256": "e045be66a7177ed8129fcf466b789dab22fa8d66bd7bdcf716b734634fa43efe",
+          "signature": "NLYrB68X9Nxqc8WaORoxPZEnYkeAf1EvzJEfBOpkeI9xBPglcuZBfI/4gAtOAwNUabEIfZwObvj6oKdPa+/hDg==",
+          "flow": "0.1.44",
+          "signed": "2026-11-20"
+        }
+      }
     }
   },
   "themes": {

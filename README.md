@@ -117,6 +117,11 @@ flowapp remove flow-rogue   # take one off (your saves stay)
 versions for you. Every download is checked against the catalog's size and
 checksum and Flow's own signature before anything is put in place.
 
+`flowapp` is in the catalog too, so a newer one can come out between Flow's
+releases: `flowapp upgrade` offers it, and from then on Flow's tabs run it in
+place of the one your Flow carries (`flowapp remove flowapp` goes back to
+that one).
+
 What `flowapp` installs comes after your system's own commands, so Flow-Utils'
 `ls` never replaces the system's unasked. `flowapp first flow-utils` puts its
 programs first in Flow's tabs, and `flowapp last flow-utils` puts the system's
