@@ -285,11 +285,11 @@
           "signed": "2026-11-20"
         },
         "macos-aarch64": {
-          "version": "0.2.0",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.0/flowapp-0.2.0-macos-aarch64.tar.gz",
-          "size": 2029299,
-          "sha256": "e045be66a7177ed8129fcf466b789dab22fa8d66bd7bdcf716b734634fa43efe",
-          "signature": "NLYrB68X9Nxqc8WaORoxPZEnYkeAf1EvzJEfBOpkeI9xBPglcuZBfI/4gAtOAwNUabEIfZwObvj6oKdPa+/hDg==",
+          "version": "0.2.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.1/flowapp-0.2.1-macos-aarch64.tar.gz",
+          "size": 2029446,
+          "sha256": "49bec0a876f966ae00c538e04192d3c2eac3fb5c2e1c3d70b7dc85e2d83cb53c",
+          "signature": "iLIrc5mW+oeW3mSu/r476eTZmAabd5reCB7MmvnOByZPP2lbXum3aCr0AOaPZKY488mqdMGUC0HKLLyucJpvDg==",
           "flow": "0.1.44",
           "signed": "2026-11-20"
         },
