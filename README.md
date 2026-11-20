@@ -133,6 +133,32 @@ back. `flowapp --help` lists everything it does.
   </tr>
 </table>
 
+### Checking a download yourself
+
+Every app's download here is signed with Flow's own Ed25519 key, and
+`flowapp` checks each one before it puts anything in place. You can check
+one yourself with OpenSSL 3 or later. `flow-update.pem`, in this
+repository, is Flow's key, and its fingerprint is:
+
+```
+f1866b49b0b42871463772bf1c9d77fae2091c32dc01681ae5d752f13008b4d0
+```
+
+```sh
+curl -LO https://raw.githubusercontent.com/arcanii/Flow-releases/main/flow-update.pem
+openssl pkey -pubin -in flow-update.pem -outform DER | openssl dgst -sha256   # the fingerprint above
+curl -LO https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-macos-aarch64.tar.gz
+curl -LO https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-macos-aarch64.tar.gz.sig
+openssl pkeyutl -verify -pubin -inkey flow-update.pem -rawin -in flow-say-0.1.1-macos-aarch64.tar.gz -sigfile flow-say-0.1.1-macos-aarch64.tar.gz.sig
+```
+
+For a download Flow signed, the last line says "Signature Verified
+Successfully". Each download's signature is beside it on its release as
+`<file>.sig`, and in `apps.json` as base64, with the date it was signed.
+
+The Mac's own `/usr/bin/openssl` is LibreSSL, which can't read an Ed25519
+key: use Homebrew's (`brew install openssl`). On Windows, use Git Bash's.
+
 ## What's in it
 
 ### The assistant

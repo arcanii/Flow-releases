@@ -13,21 +13,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.26/flow-invaders-0.1.26-linux-x86_64.tar.gz",
           "size": 9761101,
           "sha256": "bd6af6711f600ef9c4783031daae1ed06ffcdbc11ad7e93203bf17f6c0cfef7c",
-          "signature": "ZkT5LO5YTGmZL6U6HT8Wm9PWPAyW+587UmaVY4j5JdtpyBGXhIlfyJiNASb9lYZ4vK53iY0rsCQPdsVsVuBFAA=="
+          "signature": "ZkT5LO5YTGmZL6U6HT8Wm9PWPAyW+587UmaVY4j5JdtpyBGXhIlfyJiNASb9lYZ4vK53iY0rsCQPdsVsVuBFAA==",
+          "signed": "2026-11-09"
         },
         "macos-aarch64": {
           "version": "0.1.26",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.26/flow-invaders-0.1.26-macos-aarch64.tar.gz",
           "size": 9822170,
           "sha256": "d0d568244badfd23be8b27dad8a071962af43d02c28ff3235341c632e4479e5b",
-          "signature": "A7EnYWhONbV05DXey0BDGAIXACYpA6WjO02p5klSinc7J7SpIAZPlW5LS7mmfCHM0Zpu5HoZ5MIWMxuP0UB9Dw=="
+          "signature": "A7EnYWhONbV05DXey0BDGAIXACYpA6WjO02p5klSinc7J7SpIAZPlW5LS7mmfCHM0Zpu5HoZ5MIWMxuP0UB9Dw==",
+          "signed": "2026-11-09"
         },
         "windows-x86_64": {
           "version": "0.1.26",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-invaders-v0.1.26/flow-invaders-0.1.26-windows-x86_64.tar.gz",
           "size": 8884286,
           "sha256": "f8354260a881c8361464c40d660c3fa7ee5ec399e750e6eadc02f0939c7ce222",
-          "signature": "TtdAk0621YAdo91l97VIDjxk/9Pe+7RFuVsRE8cV+NvJ5RhL8Kre8HyJuTkMwwa+JOXlVF4FYxWvi8So5/ikCw=="
+          "signature": "TtdAk0621YAdo91l97VIDjxk/9Pe+7RFuVsRE8cV+NvJ5RhL8Kre8HyJuTkMwwa+JOXlVF4FYxWvi8So5/ikCw==",
+          "signed": "2026-11-09"
         }
       }
     },
@@ -44,21 +47,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-linux-x86_64.tar.gz",
           "size": 369184,
           "sha256": "10ee36c58611df7ce5e1298e6b34239f82d4acb84dcebdaef198fa663003cb74",
-          "signature": "iEP621S8XBJV6BWqkt7HTnMkiEp+wLuohZ32AMmTkYEOJHGtYOCm24eLmUwLYc5YHuRDqYuFHjmNQwk6twXYBg=="
+          "signature": "iEP621S8XBJV6BWqkt7HTnMkiEp+wLuohZ32AMmTkYEOJHGtYOCm24eLmUwLYc5YHuRDqYuFHjmNQwk6twXYBg==",
+          "signed": "2026-11-06"
         },
         "macos-aarch64": {
           "version": "0.1.6",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-macos-aarch64.tar.gz",
           "size": 367978,
           "sha256": "15441648a1c395451b342136bc47ac6f21e5d0f4f5bece84d9c0f360be634abf",
-          "signature": "F3qUBaB8Qch/BGT/FJmdp5IWGs3Hiez85+s8m6fJUzZbYDyHkZp/MVwHvEkpthj9SI/N6X9BML6x/SoK7mkUCA=="
+          "signature": "F3qUBaB8Qch/BGT/FJmdp5IWGs3Hiez85+s8m6fJUzZbYDyHkZp/MVwHvEkpthj9SI/N6X9BML6x/SoK7mkUCA==",
+          "signed": "2026-11-06"
         },
         "windows-x86_64": {
           "version": "0.1.6",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-mines-v0.1.6/flow-mines-0.1.6-windows-x86_64.tar.gz",
           "size": 257627,
           "sha256": "c97e39996b616de1bf4bc9c43de33a8df5781a901a80ffe1d6a91ced63c8e905",
-          "signature": "XxuNRC00U5kPrJGB0G6/qRhTfQEiXlswlAbnofHnWFPctZ7zTPSeAK92h8ylVsJ9AK0nZDafBkxpuHMn49PVCw=="
+          "signature": "XxuNRC00U5kPrJGB0G6/qRhTfQEiXlswlAbnofHnWFPctZ7zTPSeAK92h8ylVsJ9AK0nZDafBkxpuHMn49PVCw==",
+          "signed": "2026-11-06"
         }
       }
     },
@@ -74,21 +80,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-linux-x86_64.tar.gz",
           "size": 3036899,
           "sha256": "93b74549f61f97e74653a81b5ad8518d877664495203c3c6fda89cc612a5be3c",
-          "signature": "iStWGmdv+bwWPNOAuQQKYYsAWgHAOsI+7Nm13iM0go5rrywwzNCG3emNun5nL+qx9QYEE7rrONIRmAgIbHxCCg=="
+          "signature": "iStWGmdv+bwWPNOAuQQKYYsAWgHAOsI+7Nm13iM0go5rrywwzNCG3emNun5nL+qx9QYEE7rrONIRmAgIbHxCCg==",
+          "signed": "2026-11-10"
         },
         "macos-aarch64": {
           "version": "0.1.1",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-macos-aarch64.tar.gz",
           "size": 2959956,
           "sha256": "ea0e2b4b82c9ae510aa167695cf4f3744fa9ada5eb34f36bf8f51f8d4a3ee103",
-          "signature": "8V6kBR0w0b0FiSn51K+X8f8G9Ny3xVwVn0uk6BWFbRSK2jDvyfGVTKsCKhMrc5KzyfSXFVoPamvl2KX4pUunAQ=="
+          "signature": "8V6kBR0w0b0FiSn51K+X8f8G9Ny3xVwVn0uk6BWFbRSK2jDvyfGVTKsCKhMrc5KzyfSXFVoPamvl2KX4pUunAQ==",
+          "signed": "2026-11-10"
         },
         "windows-x86_64": {
           "version": "0.1.1",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-phonebook-v0.1.1/flow-phonebook-0.1.1-windows-x86_64.tar.gz",
           "size": 2826195,
           "sha256": "d4d3055de340381d6f0dc6f3e9ed2f0962e24738c579785b61c007970831bf4b",
-          "signature": "kP1FSKu9tb/iee+BmXuZckf8YHFRUFwbaCijXPXGJ9x0Uz+Fx0f5EQuzBYTDjXbQ9R0stiXwVquSjBqKBI4WBg=="
+          "signature": "kP1FSKu9tb/iee+BmXuZckf8YHFRUFwbaCijXPXGJ9x0Uz+Fx0f5EQuzBYTDjXbQ9R0stiXwVquSjBqKBI4WBg==",
+          "signed": "2026-11-10"
         }
       }
     },
@@ -105,21 +114,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-linux-x86_64.tar.gz",
           "size": 2955977,
           "sha256": "6a4e2f52e2b761513ffd6fc79b50cc48cb9c134e5403c7a10afec89f7178573f",
-          "signature": "EN4+l5QDYuIAsx6REHyztS0TIM/F/IZi+FIdD+Dz3Q/wA9HzsQEnAnfgqg2zNjZWakLUt40xGYm14+vMyKPaAQ=="
+          "signature": "EN4+l5QDYuIAsx6REHyztS0TIM/F/IZi+FIdD+Dz3Q/wA9HzsQEnAnfgqg2zNjZWakLUt40xGYm14+vMyKPaAQ==",
+          "signed": "2026-11-06"
         },
         "macos-aarch64": {
           "version": "0.1.46",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-macos-aarch64.tar.gz",
           "size": 2913542,
           "sha256": "04f32c4fae15eae1611c737e717afeb1342c9d2636f92358aae5700a99357f1b",
-          "signature": "ZBIq7pR/BQYq6IOpeQq0981KS3GgalLk6Pnk5MhoYmtrnUWaQbWsOCdYECb0ZvrWS43ny5e491/EcYvgRI+JDg=="
+          "signature": "ZBIq7pR/BQYq6IOpeQq0981KS3GgalLk6Pnk5MhoYmtrnUWaQbWsOCdYECb0ZvrWS43ny5e491/EcYvgRI+JDg==",
+          "signed": "2026-11-06"
         },
         "windows-x86_64": {
           "version": "0.1.46",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-rogue-v0.1.46/flow-rogue-0.1.46-windows-x86_64.tar.gz",
           "size": 2987046,
           "sha256": "a0a055c710658aee4936fede7e931f4689cad690d92db453327b7dbf58b2420e",
-          "signature": "yViAOKVCclK3RL0VqZO/UEChYzDgqORhWb7ju2Qo/rmP7KVpuLl78Es8Xw/FrVMvClGEZIgagI4g5x4arUQpCQ=="
+          "signature": "yViAOKVCclK3RL0VqZO/UEChYzDgqORhWb7ju2Qo/rmP7KVpuLl78Es8Xw/FrVMvClGEZIgagI4g5x4arUQpCQ==",
+          "signed": "2026-11-06"
         }
       }
     },
@@ -136,21 +148,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-linux-x86_64.tar.gz",
           "size": 15149118,
           "sha256": "bcc9fea40dbb5f5ec74ba00f14a452d30bdcc6c784ed47e27105d666892a1092",
-          "signature": "Lr421ig7eiS5e0f3J6kP2e0OuOVdAzcfYHdTtkRkYlG01VlOzNhxS8bUt0ci9GJ9PoXECbSFJ1ax+Fe2tfsnAw=="
+          "signature": "Lr421ig7eiS5e0f3J6kP2e0OuOVdAzcfYHdTtkRkYlG01VlOzNhxS8bUt0ci9GJ9PoXECbSFJ1ax+Fe2tfsnAw==",
+          "signed": "2026-11-17"
         },
         "macos-aarch64": {
           "version": "0.1.1",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-macos-aarch64.tar.gz",
           "size": 16462035,
           "sha256": "46682878188d353f54f983dc6e26c1d38b4a765e587fb08e5205778f6c7a1b2c",
-          "signature": "G4/OI3sqyZi/nlfl66N+uo9dRyHDBWM6XzqFfBYXrwJyGtbgII78Zbk28xTzotaOzQwYqZ7zc9rMHJ79OpF+Ag=="
+          "signature": "G4/OI3sqyZi/nlfl66N+uo9dRyHDBWM6XzqFfBYXrwJyGtbgII78Zbk28xTzotaOzQwYqZ7zc9rMHJ79OpF+Ag==",
+          "signed": "2026-11-17"
         },
         "windows-x86_64": {
           "version": "0.1.1",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-windows-x86_64.tar.gz",
           "size": 10781779,
           "sha256": "73e11a53946511aa6fd45f783ef325932530dd51f18541a818747f0e04889a13",
-          "signature": "XaR4WHyXU5TpI8e8xlGYPW1nWR9azozZIpr/fLhZfRKB3cWivoZWatR3BX61b5TdS05EPtY8AGjZSl3j2AScDA=="
+          "signature": "XaR4WHyXU5TpI8e8xlGYPW1nWR9azozZIpr/fLhZfRKB3cWivoZWatR3BX61b5TdS05EPtY8AGjZSl3j2AScDA==",
+          "signed": "2026-11-17"
         }
       }
     },
@@ -166,21 +181,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-linux-x86_64.tar.gz",
           "size": 9551233,
           "sha256": "6a0732931c4016effa1de447bf0db28cf74847f175b7ea94034a37b62ae59bd4",
-          "signature": "ThSEUEb5x0+kHqd2PVlGhWs/nKRUuIFU3Xo1xDurUrFyDbzW1GCYER7KhD0THxk6nvFPIZkV1ZGbBS1m+5TGBQ=="
+          "signature": "ThSEUEb5x0+kHqd2PVlGhWs/nKRUuIFU3Xo1xDurUrFyDbzW1GCYER7KhD0THxk6nvFPIZkV1ZGbBS1m+5TGBQ==",
+          "signed": "2026-11-06"
         },
         "macos-aarch64": {
           "version": "0.1.2",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-macos-aarch64.tar.gz",
           "size": 7102367,
           "sha256": "9bec793b24ea41c00ecda14ba7051a9e34a931cf401fd391def7d2902346cc30",
-          "signature": "IktfIAzmicwztLVMxu1FxQzNnZCTtuyoJ/RZec1b9vNHF5FerqRczasGHK1R6AKNO0E9KxGRd+9eO5sqe+HjAg=="
+          "signature": "IktfIAzmicwztLVMxu1FxQzNnZCTtuyoJ/RZec1b9vNHF5FerqRczasGHK1R6AKNO0E9KxGRd+9eO5sqe+HjAg==",
+          "signed": "2026-11-06"
         },
         "windows-x86_64": {
           "version": "0.1.2",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-windows-x86_64.tar.gz",
           "size": 7939820,
           "sha256": "2b6bd8e0516ae8ae9f048803f0725dec12fb757383f968c28715103d00f152a6",
-          "signature": "NxBnV9lI9AHKMfXXavXcFlSg2qD0vnnSYftXP+iXO7Qxks95h1+a98cVgDLOnB3kZDhYloXxY8TOHXS6xoNiBQ=="
+          "signature": "NxBnV9lI9AHKMfXXavXcFlSg2qD0vnnSYftXP+iXO7Qxks95h1+a98cVgDLOnB3kZDhYloXxY8TOHXS6xoNiBQ==",
+          "signed": "2026-11-06"
         }
       }
     },
@@ -228,21 +246,24 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.5.2/flow-utils-0.5.2-linux-x86_64.tar.gz",
           "size": 17335326,
           "sha256": "ea745f0322eabc05f7f9382979daa3879a4ab399a9b83ebebe3ae6de7410c3b3",
-          "signature": "Inh0rW/vM+tjvGGk4xXFgJSfSqs3wBdL2Znh8H2xNDfkFPORB3cxhD817YYlXhWyP6qwokJtFcss0PpDM1CFCQ=="
+          "signature": "Inh0rW/vM+tjvGGk4xXFgJSfSqs3wBdL2Znh8H2xNDfkFPORB3cxhD817YYlXhWyP6qwokJtFcss0PpDM1CFCQ==",
+          "signed": "2026-11-16"
         },
         "macos-aarch64": {
           "version": "0.5.2",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.5.2/flow-utils-0.5.2-macos-aarch64.tar.gz",
           "size": 16974140,
           "sha256": "85678d240392d0185903594ce01cd9181ade865358b6a3dcb481f08268dd4b1c",
-          "signature": "NwCwIRCflDmIlQCxLACVxmpTY7G64jTWpdsDAERhkGYJJ2j/Vxhpf3ujHvDgm/8ohTygmglG8G/5Uz6d0ptCDA=="
+          "signature": "NwCwIRCflDmIlQCxLACVxmpTY7G64jTWpdsDAERhkGYJJ2j/Vxhpf3ujHvDgm/8ohTygmglG8G/5Uz6d0ptCDA==",
+          "signed": "2026-11-16"
         },
         "windows-x86_64": {
           "version": "0.5.2",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-utils-v0.5.2/flow-utils-0.5.2-windows-x86_64.tar.gz",
           "size": 14066103,
           "sha256": "f4857dfee8ae13667519f20921ac2cdf142234bb42e47b6a933e2b933abba984",
-          "signature": "u2E699alGP3OKeIRAYbbevElEu9dV0pnnH03ddhdOLu0f8muof2GH2fU/CTQ+/72oqYZ/fTRXTLIvR3+hKl5AA=="
+          "signature": "u2E699alGP3OKeIRAYbbevElEu9dV0pnnH03ddhdOLu0f8muof2GH2fU/CTQ+/72oqYZ/fTRXTLIvR3+hKl5AA==",
+          "signed": "2026-11-16"
         }
       }
     }
@@ -258,7 +279,8 @@
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-core-themes-v0.1.0/flow-core-themes-0.1.0.tar.gz",
           "size": 3356,
           "sha256": "3b60ab9d9e767ad269d6f55283e6d5debe3f34712d3d685ce7e380b4c3687b41",
-          "signature": "LgeRlHf6yksaQV8vStrT0+OLpqzG0hTsVGKDR0ZN2bbTbQxii6DzOQXXvl865KFonYuTuwW7EzhPXgt569/zAQ=="
+          "signature": "LgeRlHf6yksaQV8vStrT0+OLpqzG0hTsVGKDR0ZN2bbTbQxii6DzOQXXvl865KFonYuTuwW7EzhPXgt569/zAQ==",
+          "signed": "2026-11-08"
         }
       }
     }
@@ -275,7 +297,8 @@
           "size": 12340,
           "sha256": "f3cdae9e6c9c58b0efbf502504c6bd357a8f9d244539f70b29b6ebe026c7010b",
           "signature": "8bwWPXRIusEKN8DNIInn9b4LRunD/3aQgQZuwkrBNxtGaCVrzB9s9JbPxaLtQjFBaN2wVQArIERtQGX7pcv5CA==",
-          "flow": "0.1.43"
+          "flow": "0.1.43",
+          "signed": "2026-11-18"
         }
       }
     },
@@ -290,7 +313,8 @@
           "size": 15852,
           "sha256": "2726e55ea0be9bbe99c44b8ae4159b28acbea4ed182a5e82932bd9b086db8262",
           "signature": "+Hd33knv9LVVSufgJ3uyCG2F1kz/BQ15s5nSKiUlpmBWXfBSpIsPhmYU3TgTOL3ntgG7gNVaJ16GhW93HS0nAg==",
-          "flow": "0.1.42"
+          "flow": "0.1.42",
+          "signed": "2026-11-16"
         }
       }
     }
