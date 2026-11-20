@@ -6,20 +6,20 @@
     <description>Most recent updates to Flow for Linux on x86_64</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.44.2</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.44.2-linux</sparkle:releaseNotesLink>
-      <pubDate>Wed, 18 Nov 2026 11:48:59 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.44.2-linux/Flow-0.1.44.2-linux-x86_64.tar.gz"
-                 sparkle:version="726"
-                 sparkle:shortVersionString="0.1.44.2"
-                 sparkle:edSignature="fN47IE3C2kPyeNLfCoQEBWWUKnS3NP2CqqmxLeh6cTlQAMaqCra8+0THncLc/9WKcTqWmFLxM/EfhaHkpwt6Bg=="
-                 length="19064694"
+      <title>Version 0.1.45</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.45-linux</sparkle:releaseNotesLink>
+      <pubDate>Fri, 20 Nov 2026 13:49:39 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.45-linux/Flow-0.1.45-linux-x86_64.tar.gz"
+                 sparkle:version="741"
+                 sparkle:shortVersionString="0.1.45"
+                 sparkle:edSignature="b0U8Cw3Fedc7/YLylTq6BKdvg9siDM68xHZv1Fkc0zehe/6B0YDm13Yb51m4aPbfROK33Ect1KgjSO9fsOvgDw=="
+                 length="19312842"
                  type="application/gzip"/>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.44.2-linux/Flow-0.1.44.2-linux-amd64.deb"
-                 sparkle:version="726"
-                 sparkle:shortVersionString="0.1.44.2"
-                 sparkle:edSignature="GFDdnb2E4Ddu/SMIlu0sIyKdWXgqVzYFjdniuUDFcRjUlShWI0FSgC+2jdbpHE4GMy9q9/M31JGww5/ZvhYkAw=="
-                 length="13133476"
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.45-linux/Flow-0.1.45-linux-amd64.deb"
+                 sparkle:version="741"
+                 sparkle:shortVersionString="0.1.45"
+                 sparkle:edSignature="kCN23prnafc4NxTFlBgD3tAvxIQzyQq9P67xenVfnvwjkM3010BhR94FQR6V5kXeDIR++tZs7Du0V7xCREuNAg=="
+                 length="13225280"
                  type="application/vnd.debian.binary-package"/>
     </item>
   </channel>
