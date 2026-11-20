@@ -275,6 +275,15 @@
       ],
       "bundled": "flowapp",
       "downloads": {
+        "linux-x86_64": {
+          "version": "0.2.1",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.1/flowapp-0.2.1-linux-x86_64.tar.gz",
+          "size": 2061444,
+          "sha256": "3a38885fa0e04e95a720e9619fe515d30808a56755a9264f272e996d6b0fde79",
+          "signature": "BetKeXi6c01XzPi0ROIELIrU44NHyCeizF6p75mD7WEevlHqtv0XxKSY+8qvUHQdAnXVjj+zS0a/KG0IX45oCQ==",
+          "flow": "0.1.44",
+          "signed": "2026-11-20"
+        },
         "macos-aarch64": {
           "version": "0.2.0",
           "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.0/flowapp-0.2.0-macos-aarch64.tar.gz",
