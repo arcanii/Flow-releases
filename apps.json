@@ -268,7 +268,7 @@
       }
     },
     "flowapp": {
-      "version": "0.2.1",
+      "version": "0.2.2",
       "summary": "flowapp, which keeps Flow's apps: newer than the copy your Flow carries, it runs in Flow's tabs in that one's place",
       "programs": [
         "flowapp"
@@ -285,13 +285,13 @@
           "signed": "2026-11-20"
         },
         "macos-aarch64": {
-          "version": "0.2.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.1/flowapp-0.2.1-macos-aarch64.tar.gz",
-          "size": 2029446,
-          "sha256": "49bec0a876f966ae00c538e04192d3c2eac3fb5c2e1c3d70b7dc85e2d83cb53c",
-          "signature": "iLIrc5mW+oeW3mSu/r476eTZmAabd5reCB7MmvnOByZPP2lbXum3aCr0AOaPZKY488mqdMGUC0HKLLyucJpvDg==",
+          "version": "0.2.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.2/flowapp-0.2.2-macos-aarch64.tar.gz",
+          "size": 2035729,
+          "sha256": "3fd5f49deb471b82cef737f9f278756b56f190cc202ff46fe6e742fb13544887",
+          "signature": "CFeRPZETRx3lq5cai0Lj6UlvI1cl7K+aWZCQj+JOGBVRZiQiB8fjkoDSnCNkfAGUymtn545tvwcmHyqWTQ3zAg==",
           "flow": "0.1.44",
-          "signed": "2026-11-20"
+          "signed": "2026-11-23"
         },
         "windows-x86_64": {
           "version": "0.2.1",
