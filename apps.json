@@ -294,13 +294,13 @@
           "signed": "2026-11-23"
         },
         "windows-x86_64": {
-          "version": "0.2.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.1/flowapp-0.2.1-windows-x86_64.tar.gz",
-          "size": 2048941,
-          "sha256": "f90feb204635441a5c63bb28a41a9a1a5cf5766378fa98fd74e9f7f2211a442d",
-          "signature": "ficDTdxkcqMjX4FhRJ9twIOoLXqOaE/jGAYnv5cZ1u/mHuwW735862lOrX4NDXhtS5k6mpPd2E3hKPB8ibwACQ==",
+          "version": "0.2.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flowapp-v0.2.2/flowapp-0.2.2-windows-x86_64.tar.gz",
+          "size": 2055082,
+          "sha256": "f3d43015ff8682149aa9b58f1fb34dfa2994a66977f997864cb3438dfe3d435f",
+          "signature": "RKVozmhHUs43jyaGgPavamW+aSP4Pdrjv12/ZdLiLfEJ1KKBWJXyNETqk/aySMVSKjE2LwlhZ1nPsFC1RAzcDw==",
           "flow": "0.1.44",
-          "signed": "2026-11-20"
+          "signed": "2026-11-23"
         }
       }
     }
