@@ -136,7 +136,7 @@
       }
     },
     "flow-say": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "summary": "Flow-Say: say in Kokoro's voices, with the Mac's flags, and a skill for the assistant; the voice (354 MB) is fetched the first time it speaks, and it asks how to address you",
       "programs": [
         "say",
@@ -152,12 +152,12 @@
           "signed": "2026-11-17"
         },
         "macos-aarch64": {
-          "version": "0.1.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-macos-aarch64.tar.gz",
-          "size": 16462035,
-          "sha256": "46682878188d353f54f983dc6e26c1d38b4a765e587fb08e5205778f6c7a1b2c",
-          "signature": "G4/OI3sqyZi/nlfl66N+uo9dRyHDBWM6XzqFfBYXrwJyGtbgII78Zbk28xTzotaOzQwYqZ7zc9rMHJ79OpF+Ag==",
-          "signed": "2026-11-17"
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.2/flow-say-0.1.2-macos-aarch64.tar.gz",
+          "size": 16475496,
+          "sha256": "94b709baa85917868dd1c3075fdaf55766a55d8bca2493ceaf9345baecae4c85",
+          "signature": "ss9Zynh8BB11xfKD2rhGREXajwA8ajsmf6Q/CkdTG7eqmzo7T/5dRJFSf4AfTSHjljIwrFKd6N3wHBxB3DqlCw==",
+          "signed": "2026-11-23"
         },
         "windows-x86_64": {
           "version": "0.1.1",
