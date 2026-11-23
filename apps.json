@@ -144,12 +144,12 @@
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-linux-x86_64.tar.gz",
-          "size": 15149118,
-          "sha256": "bcc9fea40dbb5f5ec74ba00f14a452d30bdcc6c784ed47e27105d666892a1092",
-          "signature": "Lr421ig7eiS5e0f3J6kP2e0OuOVdAzcfYHdTtkRkYlG01VlOzNhxS8bUt0ci9GJ9PoXECbSFJ1ax+Fe2tfsnAw==",
-          "signed": "2026-11-17"
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.2/flow-say-0.1.2-linux-x86_64.tar.gz",
+          "size": 15160033,
+          "sha256": "930ee346cddecbe9cb42d094ee76fb6dc3d5cf0c7d7abffdffcae1d8acc3e44d",
+          "signature": "SOiG77tSWPDtGnmxElWiH5C1V/NKXk5r1Oa4uX6mA+XSBmXi4JIUmPDnhzZ6S/JsP5LX/mj890pL6wVKOmdqAg==",
+          "signed": "2026-11-23"
         },
         "macos-aarch64": {
           "version": "0.1.2",
