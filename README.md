@@ -46,6 +46,129 @@ terminal that ride the liquid like the letters around them.
 
 ![Flow with the assistant panel open](images/main.png)
 
+## Why Flow
+
+The terminal is where you tell a computer what to do. Flow is built to
+make it the best place on your computer to be: a window of live liquid
+glass, an assistant that does the work beside you while you watch, and
+the same terminal on Windows, macOS and Linux.
+
+**Do you want a taste of [Omarchy](https://omarchy.org) without switching
+everything over yet?** Omarchy, DHH's "beautiful, fun & agentic" Linux,
+puts the keyboard, the terminal, good looks and AI agents at the heart of
+the computer. Flow brings that way of working to the Windows, Mac or
+Linux you already have, as one app:
+- a theme for the whole window, chosen in one place;
+- [split panes](#tabs-panes-and-finding-your-way), tiled and moved
+  between with the keys;
+- a [command palette](#tabs-panes-and-finding-your-way) that reaches
+  everything;
+- a [hotkey](#and-more) that drops Flow down over whatever you're doing;
+- every key yours to change, in **Settings → Keys**;
+- an assistant in the window;
+- [`flowapp`](#apps-with-flowapp), which installs terminal tools written
+  again for Flow: `ls`, `tree`, `top`, `btop` and `du`, with pictures,
+  bars and graphs.
+
+When you're ready for the real thing, your habits come with you.
+
+**Do you want AI to help manage your PC, so you don't have to?** Say what
+you want in plain words: *"why is my disk full?"*, *"update everything
+Homebrew installed"*, or *"what's listening on port 8080? stop it"*.
+Flow's [assistant](#the-assistant) works it out and runs it in your real
+shell, where you see every command. It uses Claude, GPT or Gemini, with
+your own key.
+- **Guide mode:** it waits for your yes at each step.
+- **Auto mode:** it goes ahead by itself, but still asks before anything
+  risky: deleting, `sudo`, registry edits, or files that look like
+  secrets.
+- **When a command fails,** Flow offers **✦ Ask why**.
+- **It remembers** what it learned and where a task got to, and carries
+  on after a restart.
+- **It can work on its own** for the time and tokens you give it.
+- **`/undo`** puts back the files a task changed.
+- **[MCP servers](#mcp-both-ways)** let it reach your other tools.
+
+**Do you want the nostalgia of the computers of yesteryear?** Put on one
+of ten old machines' [themes](#themes) and a tab becomes that machine:
+- an 8-bit home computer on a television;
+- a minicomputer's green or amber screen;
+- a teletype typing its start screen at 300 baud;
+- a British school's page of teletext;
+- an eighties PC counting its memory as it starts;
+- a workstation whose PROM probes your own computer's memory banks and
+  buses;
+- a 16-bit home computer that asks for its disk before its ball spins.
+
+Each comes with its own fonts, start screen and prompt, and a
+[CRT](#crt): curved glass, scanlines and a phosphor that lingers. Each
+makes its own sounds: the tube's hum, the PC's fan, the teletype's clack
+and bell, the floppy drive's seek. Every tab, and every pane of a split,
+can wear a different one.
+
+**Do you want to turn your boring terminal into something exciting?**
+Flow's glass is a [live fluid](#liquid-glass) that your cursor and typing
+stir. Pick clouds with lightning, water seen from above or below, glossy
+oil, or rain on a window that beads, runs and flashes with thunder in a
+storm. The glass reacts:
+- a finished command splashes;
+- a build's progress fills the glass like a tank;
+- the liquid leans toward the assistant while it thinks;
+- programs can ask for bolts and bursts of their own.
+
+Programs show [pictures and moving 3D models](#pictures-and-3d-models)
+right in the terminal (pictures in kitty's, iTerm2's and sixel formats),
+and the [games](#apps-with-flowapp) made for Flow install with one
+command. To share what you did, [record it](#and-more) as an animated
+WebP.
+
+**Do you want a terminal that does the everyday things well, and works
+much the same on Windows, macOS and Linux?**
+- **[Full-text search](#tabs-panes-and-finding-your-way)** of every
+  command you've run, in every shell, cmd included. Type any words in any
+  order, or any three letters, and see the folder each one ran in and how
+  it ended.
+- **Different shells in tabs:**
+  - on Windows, cmd, PowerShell and bash (Git Bash, MSYS2, WSL, or the
+    BusyBox that comes with Flow);
+  - on the Mac and Linux, zsh and bash.
+
+  Any tab splits into panes.
+- **One Flow on all three systems,** as far as each one allows: the same
+  features, settings and config file, with `Ctrl+Shift` where the Mac
+  has `⌘`.
+- **Find in the scrollback,** with patterns if you like, and jumps from
+  command to command.
+- **The small things:**
+  - links you can click;
+  - a click that moves the cursor along the line you're typing;
+  - a [notification](#and-more) when a long command finishes behind
+    other windows;
+  - tabs that come back as you left them.
+
+**And more:**
+- **Safe by default.** Flow works as a terminal with no account and no
+  key.
+  - A key you add stays in the system's own credential store.
+  - Secrets are kept out of the command history and the assistant's
+    memory.
+  - Outside apps get in only when you let them.
+  - [Updates are signed](#download) on every system, and Flow refuses
+    any that aren't.
+- **Light when it needs to be.** **🌱e-mode** turns the show off in one
+  click, and can turn it off by itself on battery.
+- **Open to everyone.** VoiceOver, Narrator and Orca read Flow's tabs,
+  panes, assistant and Settings. Its words come in English and Japanese.
+- **Yours to build on.**
+  - Programs reach Flow with escape codes and
+    [its SDK](https://github.com/arcanii/Flow-SDK) for C and Python, and
+    change its settings with `flow-settings`.
+  - Themes and skills come as [packages](#apps-with-flowapp).
+  - [Outside apps](#mcp-both-ways) such as Claude Code, Claude Desktop
+    and Cursor can use your tabs through MCP, as far as you allow.
+- **Native.** Flow is written in Rust and drawn on the GPU: an app of
+  each system's own, not a web page in a window.
+
 ## Quick start
 
 **TL;DR:** install it, open it, and use it as your terminal. Everything else
@@ -345,7 +468,7 @@ Pick a style in Settings, and slow it down if you like:
 The glass also shows what the terminal is up to: a ring spreads when a
 command finishes (red if it failed), programs that report progress fill it
 like a tank, a tab glows when a long command ends behind it, and programs can
-set off lightning, splashes and ripples of their own. **Efficient** in the
+set off lightning, splashes and ripples of their own. **🌱e-mode** in the
 title bar stills it all to save power, and Flow can do that by itself on
 battery.
 
