@@ -160,12 +160,12 @@
           "signed": "2026-11-23"
         },
         "windows-x86_64": {
-          "version": "0.1.1",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.1/flow-say-0.1.1-windows-x86_64.tar.gz",
-          "size": 10781779,
-          "sha256": "73e11a53946511aa6fd45f783ef325932530dd51f18541a818747f0e04889a13",
-          "signature": "XaR4WHyXU5TpI8e8xlGYPW1nWR9azozZIpr/fLhZfRKB3cWivoZWatR3BX61b5TdS05EPtY8AGjZSl3j2AScDA==",
-          "signed": "2026-11-17"
+          "version": "0.1.2",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-say-v0.1.2/flow-say-0.1.2-windows-x86_64.tar.gz",
+          "size": 10790292,
+          "sha256": "12520511005f50c89642c2893335f64b720f98e181cdfaffa4669463885e606a",
+          "signature": "LbNSe5DJl/g2G8P7BA3OXPqEI3r56Cfv67yA5H++iaFG/YRn8jMCWYSWtwvX3QT4gINTuvuadxhpemGKdU3jDA==",
+          "signed": "2026-11-23"
         }
       }
     },
