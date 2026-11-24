@@ -26,7 +26,7 @@
 <p align="center">
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.45-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-linux"><b>Download for Linux</b></a>
 </p>
 
 ---
@@ -560,7 +560,7 @@ emulation).
 
 ### Linux
 
-From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.45-linux),
+From the [Linux release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-linux),
 for x86-64 Linux with glibc 2.31 or newer (Ubuntu 20.04, Debian 11 and
 everything since), on Wayland or X11, with a Vulkan driver:
 
