@@ -170,7 +170,7 @@
       }
     },
     "flow-sdk": {
-      "version": "0.1.2",
+      "version": "0.1.4",
       "summary": "Flow's SDK for C and Python, its library, header and Python package, with flow-demo, its demos",
       "programs": [
         "flow-demo"
@@ -185,12 +185,12 @@
           "signed": "2026-11-06"
         },
         "macos-aarch64": {
-          "version": "0.1.2",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-macos-aarch64.tar.gz",
-          "size": 7102367,
-          "sha256": "9bec793b24ea41c00ecda14ba7051a9e34a931cf401fd391def7d2902346cc30",
-          "signature": "IktfIAzmicwztLVMxu1FxQzNnZCTtuyoJ/RZec1b9vNHF5FerqRczasGHK1R6AKNO0E9KxGRd+9eO5sqe+HjAg==",
-          "signed": "2026-11-06"
+          "version": "0.1.4",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.4/flow-sdk-0.1.4-macos-aarch64.tar.gz",
+          "size": 8119048,
+          "sha256": "2434463066b4029b541874450bda5bf640d413b7e25759ee8f17f95bb79ecef4",
+          "signature": "pSYdYPfECsNCf7Yv6QeFyh/J5YNY1xQqCye0XRkYGZ6wpL3/gAOa+jUsnQRm10sy7vdy4OoJg8Eel/vpPo8pCw==",
+          "signed": "2026-11-24"
         },
         "windows-x86_64": {
           "version": "0.1.2",
