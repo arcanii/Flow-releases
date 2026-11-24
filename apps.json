@@ -177,12 +177,12 @@
       ],
       "downloads": {
         "linux-x86_64": {
-          "version": "0.1.2",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-linux-x86_64.tar.gz",
-          "size": 9551233,
-          "sha256": "6a0732931c4016effa1de447bf0db28cf74847f175b7ea94034a37b62ae59bd4",
-          "signature": "ThSEUEb5x0+kHqd2PVlGhWs/nKRUuIFU3Xo1xDurUrFyDbzW1GCYER7KhD0THxk6nvFPIZkV1ZGbBS1m+5TGBQ==",
-          "signed": "2026-11-06"
+          "version": "0.1.4",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.4/flow-sdk-0.1.4-linux-x86_64.tar.gz",
+          "size": 10604024,
+          "sha256": "19226ed2fcd48ccbe2568bb31e71e50c5f0d5dc90132d404a5636cc568326c1f",
+          "signature": "7PnBrShQfRE/T/Gu9LL9vF47k0mzCxYG00fY3CVVCXuHxu1Fkf+CMKf6sTbshzXbUXRh3K0MibEBKsBTEp6qDA==",
+          "signed": "2026-11-24"
         },
         "macos-aarch64": {
           "version": "0.1.4",
