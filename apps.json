@@ -193,12 +193,12 @@
           "signed": "2026-11-24"
         },
         "windows-x86_64": {
-          "version": "0.1.2",
-          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.2/flow-sdk-0.1.2-windows-x86_64.tar.gz",
-          "size": 7939820,
-          "sha256": "2b6bd8e0516ae8ae9f048803f0725dec12fb757383f968c28715103d00f152a6",
-          "signature": "NxBnV9lI9AHKMfXXavXcFlSg2qD0vnnSYftXP+iXO7Qxks95h1+a98cVgDLOnB3kZDhYloXxY8TOHXS6xoNiBQ==",
-          "signed": "2026-11-06"
+          "version": "0.1.4",
+          "url": "https://github.com/arcanii/Flow-releases/releases/download/flow-sdk-v0.1.4/flow-sdk-0.1.4-windows-x86_64.tar.gz",
+          "size": 9235603,
+          "sha256": "d4232fec31dda3a7059baa2e6923f8ce344c66aba5fd848af8d0094eef7427c3",
+          "signature": "Wx366gnQtztLTmqNkp4sTMq6I5oZE1PFB20XDxg4sJPaZXILajBOk7Wt6+zIpYrvenjzKfwx5DjjprQF3xcPBQ==",
+          "signed": "2026-11-25"
         }
       }
     },
