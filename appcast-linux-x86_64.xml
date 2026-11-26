@@ -6,20 +6,20 @@
     <description>Most recent updates to Flow for Linux on x86_64</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.46</title>
-      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-linux</sparkle:releaseNotesLink>
-      <pubDate>Tue, 24 Nov 2026 23:07:38 +0000</pubDate>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.46-linux/Flow-0.1.46-linux-x86_64.tar.gz"
-                 sparkle:version="766"
-                 sparkle:shortVersionString="0.1.46"
-                 sparkle:edSignature="/X5Rga88E546HHNiqcOmNK7CBs7S5YrOIQ2VRZVh/wpsU0FBX8Gj8mOVKD1catQV7OaHdBqHqr/0ZwTeY3isAA=="
-                 length="19557601"
+      <title>Version 0.1.47</title>
+      <sparkle:releaseNotesLink>https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-linux</sparkle:releaseNotesLink>
+      <pubDate>Thu, 26 Nov 2026 01:57:22 +0000</pubDate>
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.47-linux/Flow-0.1.47-linux-x86_64.tar.gz"
+                 sparkle:version="2008"
+                 sparkle:shortVersionString="0.1.47"
+                 sparkle:edSignature="FhpYDQfsAMVk2XEU5NFn8ivJNFEsx8/uJngoNtoI0DOUxi1Oeos/u8c56LgEqsxvKtFMQ6WB1NLaRL5biUrCAg=="
+                 length="19751168"
                  type="application/gzip"/>
-      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.46-linux/Flow-0.1.46-linux-amd64.deb"
-                 sparkle:version="766"
-                 sparkle:shortVersionString="0.1.46"
-                 sparkle:edSignature="SD1AItTgaQyBq+Z1JKtc1geJLXdXdGZIUjTDpiYhH400qjuzohzhZjaNKAU3CRZsgflhqn7Mz4rhAZFTC0K5Ag=="
-                 length="13460304"
+      <enclosure url="https://github.com/arcanii/Flow-releases/releases/download/v0.1.47-linux/Flow-0.1.47-linux-amd64.deb"
+                 sparkle:version="2008"
+                 sparkle:shortVersionString="0.1.47"
+                 sparkle:edSignature="oeR3gDBpzZ4UZDqXxQemplUCsxPIj5dbyNzPANWILU7miY4Q+qLgQjKjq+e381Hum5IyZF4zWc+o0OMfju7FBg=="
+                 length="13496968"
                  type="application/vnd.debian.binary-package"/>
     </item>
   </channel>
