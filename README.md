@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-macos"><b>Download for macOS</b></a> ·
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-linux"><b>Download for Linux</b></a>
 </p>
@@ -534,7 +534,7 @@ Classic, Arcade, Phosphor or Television) or save your own.
 ### macOS
 
 Get **Flow-&lt;version&gt;-macos.dmg** from the
-[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.46-macos),
+[macOS release](https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-macos),
 open it, and drag Flow to Applications. It runs on Macs with Apple silicon and
 macOS 11 or later.
 
