@@ -7,26 +7,20 @@
 <p align="center"><i>A terminal for macOS, Windows and Linux with a liquid-glass look, old machines' themes, pictures and 3D in the terminal, and an AI assistant built in.</i></p>
 
 <p align="center">
-  <a href="#macos"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2Farcanii%2FFlow-releases%2Fmain%2Fappcast-macos.xml&query=%28%2F%2F%2A%5Blocal-name%28%29%3D%27enclosure%27%5D%29%5B1%5D%2F%40%2A%5Blocal-name%28%29%3D%27shortVersionString%27%5D&label=macOS&logo=apple&logoColor=white&color=000000&style=for-the-badge" alt="The newest Flow for macOS"></a>
-  <a href="#windows"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2Farcanii%2FFlow-releases%2Fmain%2Fappcast.xml&query=%28%2F%2F%2A%5Blocal-name%28%29%3D%27enclosure%27%5D%29%5B1%5D%2F%40%2A%5Blocal-name%28%29%3D%27shortVersionString%27%5D&label=Windows&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nI2ZmZicgZD0nTTEgMWgxMC41djEwLjVIMXpNMTIuNSAxSDIzdjEwLjVIMTIuNXpNMSAxMi41aDEwLjVWMjNIMXpNMTIuNSAxMi41SDIzVjIzSDEyLjV6Jy8%2BPC9zdmc%2B&color=0078D6&style=for-the-badge" alt="The newest Flow for Windows"></a>
-  <a href="#linux"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2Farcanii%2FFlow-releases%2Fmain%2Fappcast-linux-x86_64.xml&query=%28%2F%2F%2A%5Blocal-name%28%29%3D%27enclosure%27%5D%29%5B1%5D%2F%40%2A%5Blocal-name%28%29%3D%27shortVersionString%27%5D&label=Linux&logo=linux&logoColor=black&color=FCC624&style=for-the-badge" alt="The newest Flow for Linux"></a>
-  <a href="https://github.com/arcanii/Flow-releases/releases"><img src="https://img.shields.io/github/downloads/arcanii/Flow-releases/total?label=Downloads&color=7CE7FF&style=for-the-badge" alt="Downloads"></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Assistant-Claude%20%C2%B7%20GPT%20%C2%B7%20Gemini-7CE7FF?style=for-the-badge&logo=claude&logoColor=black" alt="Assistant: Claude, GPT or Gemini">
-  <img src="https://img.shields.io/badge/Pictures-kitty%20%C2%B7%20Sixel%20%C2%B7%20iTerm2-7CE7FF?style=for-the-badge" alt="Pictures: kitty, Sixel and iTerm2">
-  <img src="https://img.shields.io/badge/3D-glTF%20%C2%B7%20OBJ-7CE7FF?style=for-the-badge" alt="3D models: glTF and OBJ">
-  <img src="https://img.shields.io/badge/MCP-servers%20%C2%B7%20outside%20apps-7CE7FF?style=for-the-badge" alt="MCP: the assistant uses servers, and outside apps use Flow">
-  <img src="https://img.shields.io/badge/Rust-wgpu-B78CFF?style=for-the-badge&logo=rust&logoColor=black" alt="Written in Rust, drawn with wgpu">
-  <img src="https://img.shields.io/badge/Languages-English%20%C2%B7%20%E6%97%A5%E6%9C%AC%E8%AA%9E-B78CFF?style=for-the-badge" alt="English and Japanese">
-  <img src="https://img.shields.io/badge/Updates-signed%20Ed25519-B78CFF?style=for-the-badge" alt="Signed updates">
+  <img src="images/badges/assistant.svg" alt="Assistant: Claude, GPT or Gemini">
+  <img src="images/badges/pictures.svg" alt="Pictures: kitty, Sixel and iTerm2">
+  <img src="images/badges/3d.svg" alt="3D models: glTF and OBJ">
+  <img src="images/badges/mcp.svg" alt="MCP: the assistant uses servers, and outside apps use Flow">
+  <img src="images/badges/rust.svg" alt="Written in Rust, drawn with wgpu">
+  <img src="images/badges/languages.svg" alt="English and Japanese">
+  <img src="images/badges/updates.svg" alt="Signed updates">
 </p>
 
 <p align="center">
   <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-macos"><b>Download for macOS</b></a> ·
   <a href="https://github.com/arcanii/Flow-releases/releases/latest"><b>Download for Windows</b></a> ·
-  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-linux"><b>Download for Linux</b></a>
+  <a href="https://github.com/arcanii/Flow-releases/releases/tag/v0.1.47-linux"><b>Download for Linux</b></a> ·
+  <a href="https://github.com/arcanii/Flow-Terminal"><b>Source</b></a>
 </p>
 
 ---
@@ -594,10 +588,14 @@ that Flow checks before using it, and it refuses any that doesn't verify.
   Linux, and `apps.json`, the catalog `flowapp` reads.
 
 Something not right? Please [open an
-issue](https://github.com/arcanii/Flow-releases/issues).
+issue](https://github.com/arcanii/Flow-Terminal/issues), or report a
+security hole privately through its **Security** tab.
 
-Flow's source code isn't public yet, but I do plan to make it open source when
-it's more mature.
+Flow is open source: its source is at
+[arcanii/Flow-Terminal](https://github.com/arcanii/Flow-Terminal), under the
+MIT License. Flow's name, icon and startup logo aren't covered by that
+license ([Flow's brand
+license](https://github.com/arcanii/Flow-Terminal/blob/master/docs/brand/LICENSE-brand.txt)).
 
 <sub>Intel, AMD, Sun Microsystems and its emblem, SGI and its cube, Amiga and
 its Boing Ball (with Kickstart, Workbench and Topaz), Apple and Windows are
